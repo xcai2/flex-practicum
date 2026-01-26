@@ -1,84 +1,84 @@
-# 数据收集指南
+# Data Collection Guide
 
-## 目标公司信息
+## Target Company Information
 
 ### 1. Jabil Inc. (JBL)
-- **官方网站**: https://www.jabil.com
-- **投资者关系**: https://investors.jabil.com
+- **Official Website**: https://www.jabil.com
+- **Investor Relations**: https://investors.jabil.com
 - **SEC CIK**: 0000898293
-- **股票代码**: NYSE: JBL
-- **分析重点**: 运营扩张和数据中心战略
+- **Stock Ticker**: NYSE: JBL
+- **Key Analysis Focus**: Operational expansion and data center strategy
 
 ### 2. Celestica Inc. (CLS)
-- **官方网站**: https://www.celestica.com
-- **投资者关系**: https://www.celestica.com/investors
+- **Official Website**: https://www.celestica.com
+- **Investor Relations**: https://www.celestica.com/investors
 - **SEC CIK**: 0001000623
-- **股票代码**: NYSE: CLS, TSX: CLS
-- **分析重点**: 向硬件平台解决方案的转变和超大规模合作伙伴关系
+- **Stock Ticker**: NYSE: CLS, TSX: CLS
+- **Key Analysis Focus**: Shift to hardware platform solutions and hyperscale partnerships
 
 ### 3. Benchmark Electronics, Inc. (BHE)
-- **官方网站**: https://www.bench.com
-- **投资者关系**: https://ir.bench.com
+- **Official Website**: https://www.bench.com
+- **Investor Relations**: https://ir.bench.com
 - **SEC CIK**: 0000925036
-- **股票代码**: NYSE: BHE
-- **分析重点**: 高性能计算与传统医疗/航空航天业务的投资组合
+- **Stock Ticker**: NYSE: BHE
+- **Key Analysis Focus**: Portfolio of high-performance computing and traditional medical/aerospace businesses
 
 ### 4. Sanmina Corporation (SANM)
-- **官方网站**: https://www.sanmina.com
-- **投资者关系**: https://investor.sanmina.com
+- **Official Website**: https://www.sanmina.com
+- **Investor Relations**: https://investor.sanmina.com
 - **SEC CIK**: 0001068686
-- **股票代码**: NASDAQ: SANM
-- **分析重点**: 垂直整合战略和服务器生态系统中的激进举措
+- **Stock Ticker**: NASDAQ: SANM
+- **Key Analysis Focus**: Vertical integration strategy and aggressive moves in the server ecosystem
 
 ### 5. Flex Ltd. (FLEX)
-- **官方网站**: https://flex.com
-- **投资者关系**: https://investors.flex.com
+- **Official Website**: https://flex.com
+- **Investor Relations**: https://investors.flex.com
 - **SEC CIK**: 0000866374
-- **股票代码**: NASDAQ: FLEX
-- **分析重点**: 作为对照组,基准数据准确性和情绪
+- **Stock Ticker**: NASDAQ: FLEX
+- **Key Analysis Focus**: Baseline group, benchmark data accuracy and sentiment
 
 ---
 
-## 数据收集清单
+## Data Collection Checklist
 
-### A. 财报电话会议Transcript (Earnings Call Transcripts)
+### A. Earnings Call Transcripts
 
-**时间范围**: past12个quarters (2022 Q1 - 2024 Q4)
+**Time Range**: past 12 quarters (2022 Q1 - 2024 Q4)
 
-**数据源**:
-1. **公司Investor Relations Page** (首选)
-   - 通常在 "Events & Presentations" 或 "Quarterly Results" 部分
+**Data Sources**:
+1. **Company Investor Relations Page** (preferred)
+   - Usually under "Events & Presentations" or "Quarterly Results"
    
 2. **Seeking Alpha**
-   - URLformat: `https://seekingalpha.com/symbol/{TICKER}/earnings/transcripts`
-   - 免费Visit部分Transcript
+   - URL format: `https://seekingalpha.com/symbol/{TICKER}/earnings/transcripts`
+   - Partial transcripts available for free
    
 3. **The Motley Fool**
-   - 提供部分免费Transcript
+   - Provides some free transcripts
    
-4. **SEC 8-Kfilings**
-   - 有些公司将Transcript作为8-K的附件
+4. **SEC 8-K Filings**
+   - Some companies attach transcripts as exhibits in 8-K filings
 
-**收集内容**:
-- [ ] 完整会议Transcript文本
-- [ ] 会议Date
-- [ ] 财years和quarters
-- [ ] 管理层准备发言
-- [ ] Q&A环节
-- [ ] 参与者名单(高管和分析师)
+**Collection Items**:
+- [ ] Full meeting transcript text
+- [ ] Meeting date
+- [ ] Fiscal years and quarters
+- [ ] Prepared remarks by management
+- [ ] Q&A session
+- [ ] Participants list (executives and analysts)
 
-**保存format**:
-- filings名: `{company}_{YYYY}_Q{Q}_earnings_call.txt`
-- 元数据: JSONformat保存在同名.jsonfilings中
+**Save Format**:
+- Filing name: `{company}_{YYYY}_Q{Q}_earnings_call.txt`
+- Metadata: stored in JSON format in a same-named .json file
 
 ---
 
-### B. SECfilings (SEC Filings)
+### B. SEC Filings
 
-**SEC EDGARVisit**: https://www.sec.gov/edgar/searchedgar/companysearch.html
+**SEC EDGAR Site**: https://www.sec.gov/edgar/searchedgar/companysearch.html
 
-#### B1. 10-K years度报告
-**时间范围**: 2021, 2022, 2023 (3years)
+#### B1. 10-K Annual Reports
+**Time Range**: 2021, 2022, 2023 (3 years)
 
 **Key Sections**:
 - Item 1: Business
@@ -86,146 +86,146 @@
 - Item 7: Management's Discussion and Analysis (MD&A)
 - Item 8: Financial Statements and Supplementary Data
 
-**关Note信息**:
-- 业务部门细分
-- CapEx总额和细分
-- 地理分布
-- 战略方向
-- Risk factors(特别是市场风险)
+**Key Notes**:
+- Business segment breakdown
+- Total and segmented CapEx
+- Geographic distribution
+- Strategic directions
+- Risk factors (especially market risks)
 
-#### B2. 10-Q quarters报告
-**时间范围**: past12个quarters
+#### B2. 10-Q Quarterly Reports
+**Time Range**: past 12 quarters
 
 **Key Sections**:
 - Part I, Item 2: MD&A
 - Part I, Item 1: Financial Statements
 
-**关Note信息**:
-- quartersCapEx
-- 业务部门表现
-- 重大事件
+**Key Notes**:
+- Quarterly CapEx
+- Business segment performance
+- Material events
 
-#### B3. 8-K 重大事件报告
-**时间范围**: past3years
+#### B3. 8-K Material Event Reports
+**Time Range**: past 3 years
 
-**关Note事件类型**:
-- Item 1.01: Entry into Material Agreement
+**Key Event Types**:
+- Item 1.01: Entry into Material Definitive Agreement
 - Item 2.02: Results of Operations and Financial Condition
 - Item 8.01: Other Events
-- 重大收购、工厂开业、战略合作
+- Major acquisitions, plant openings, strategic partnerships
 
-**收集方法**:
+**Collection Method**:
 ```python
 from sec_edgar_downloader import Downloader
 
 dl = Downloader("YourName", "your.email@example.com")
 
-# Download10-K
+# Download 10-K
 dl.get("10-K", "JBL", after="2021-01-01", before="2024-12-31")
 
-# Download10-Q
+# Download 10-Q
 dl.get("10-Q", "JBL", after="2022-01-01", before="2024-12-31")
 
-# Download8-K
+# Download 8-K
 dl.get("8-K", "JBL", after="2022-01-01", before="2024-12-31")
 ```
 
 ---
 
-### C. 投资者演示文稿 (Investor Presentations)
+### C. Investor Presentations
 
-**类型**:
-1. **投资者日演示** (Investor Day)
-2. **quarters业绩演示** (Quarterly Earnings Presentations)
-3. **行业会议演示** (Industry Conference Presentations)
+**Types**:
+1. **Investor Day Presentations**
+2. **Quarterly Earnings Presentations**
+3. **Industry Conference Presentations**
 
-**数据源**:
-- 公司Investor Relations Page
-- SEC 8-K附件
-- 投资者会议网站
+**Data Sources**:
+- Company Investor Relations Page
+- SEC 8-K Attachments
+- Investor conference websites
 
-**收集内容**:
-- [ ] PDF演示文稿
-- [ ] 配套视频(如有)
-- [ ] Press Release
-- [ ] 演示Date和场合
+**Collection Items**:
+- [ ] PDF presentation files
+- [ ] Accompanying videos (if any)
+- [ ] Press releases
+- [ ] Presentation date and occasion
 
-**保存format**:
-- filings名: `{company}_{YYYY_MM_DD}_{event_type}.pdf`
+**Save Format**:
+- Filing name: `{company}_{YYYY_MM_DD}_{event_type}.pdf`
 
 ---
 
-### D. Press Release和公告 (Press Releases)
+### D. Press Releases and Announcements
 
-**关Note主题**:
-1. **CapExRelated**:
-   - 新工厂开业/扩建
-   - 重大设备采购
-   - 制造能力扩展
+**Key Topics**:
+1. **CapEx Related**:
+   - New plant openings/expansions
+   - Major equipment purchases
+   - Manufacturing capacity expansions
    
-2. **战略投资**:
-   - M&A Activity(M&A)
-   - 合资企业
-   - 战略合作伙伴关系
+2. **Strategic Investments**:
+   - M&A activity
+   - Joint ventures
+   - Strategic partnerships
    
-3. **技术投资**:
-   - 研发中心
-   - 技术平台
-   - 液冷技术
-   - AI基础设施
+3. **Technology Investments**:
+   - R&D Centers
+   - Technology platforms
+   - Liquid cooling technology
+   - AI infrastructure
    
-4. **客户和合同**:
-   - 重大客户合同
-   - 超大规模客户(Hyperscaler)合作
+4. **Customers and Contracts**:
+   - Major customer contracts
+   - Hyperscaler collaborations
 
-**数据源**:
-1. **公司新闻中心**
+**Data Sources**:
+1. **Company News Hubs**
    - Jabil: https://www.jabil.com/news.html
    - Celestica: https://www.celestica.com/news-events
    - Benchmark: https://www.bench.com/news
    - Sanmina: https://www.sanmina.com/news
    - Flex: https://flex.com/news
    
-2. **新闻发布平台**:
+2. **Newswire Platforms**:
    - PR Newswire: https://www.prnewswire.com
    - Business Wire: https://www.businesswire.com
    - GlobeNewswire: https://www.globenewswire.com
 
-**收集方法**:
-- 使用公司网站Search功能
-- Google NewsSearch: `site:jabil.com "data center" OR "AI" OR "CapEx"`
-- 按时间倒序收集
+**Collection Method**:
+- Use company website’s search functionality
+- Google News search: `site:jabil.com "data center" OR "AI" OR "CapEx"`
+- Collect in reverse chronological order
 
-**保存format**:
-- filings名: `{company}_{YYYY_MM_DD}_{topic_keyword}.txt`
-- 包含: 标题、Date、完整正文、来源URL
+**Save Format**:
+- Filing name: `{company}_{YYYY_MM_DD}_{topic_keyword}.txt`
+- Includes: title, date, full text, source URL
 
 ---
 
-### E. 分析师报告 (Analyst Reports) - 可选
+### E. Analyst Reports (Optional)
 
-**数据源**:
-1. **大学图书馆数据库**:
+**Data Sources**:
+1. **University Library Databases**:
    - Bloomberg Terminal
    - FactSet
    - S&P Capital IQ
    
-2. **免费资源**:
-   - Seeking Alpha分析文章
-   - Yahoo Finance分析师评级
+2. **Free Resources**:
+   - Seeking Alpha analyst articles
+   - Yahoo Finance analyst ratings
    - TipRanks
 
-**收集内容**:
-- [ ] 分析师评级和目标价
-- [ ] 行业分析报告
-- [ ] CapEx预测
-- [ ] 战略分析
+**Collection Items**:
+- [ ] Analyst ratings and target prices
+- [ ] Industry analysis reports
+- [ ] CapEx forecasts
+- [ ] Strategic analysis
 
 ---
 
-## 数据收集工作流程
+## Data Collection Workflow
 
-### 第一步: 设置环境
+### Step 1: Setup Environment
 ```bash
 cd flex-practicum
 python -m venv venv
@@ -233,122 +233,122 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 第二步: 配置SECVisit
-编辑 `.env` filings:
+### Step 2: Configure SEC Access
+Edit `.env` file:
 ```
 SEC_API_USER_AGENT=YourName your.email@example.com
 ```
 
-### 第三步: 运行SECfilingsDownload脚本
+### Step 3: Run SEC Filings Download Script
 ```bash
 python src/data_collection/sec_scraper.py --company JBL --years 3
 ```
 
-### 第四步: 收集财报会议Transcript
+### Step 4: Collect Earnings Call Transcripts
 ```bash
 python src/data_collection/earnings_call_scraper.py --company JBL
 ```
 
-### 第五步: 收集新闻和公告
+### Step 5: Collect News and Announcements
 ```bash
 python src/data_collection/news_scraper.py --company JBL --start-date 2022-01-01
 ```
 
-### 第六步: 手动收集投资者演示
-- Visit公司Investor Relations Page
-- DownloadPDFfilings到对应filings夹
-- Transcript元数据
+### Step 6: Manually Collect Investor Presentations
+- Visit company Investor Relations page
+- Download PDF files into corresponding folders
+- Maintain transcript metadata
 
-### 第七步: 数据验证
+### Step 7: Data Validation
 ```bash
 python src/data_processing/validate_data.py
 ```
 
 ---
 
-## 数据质量检查清单
+## Data Quality Checklist
 
-对每家公司:
-- [ ] 至少10个quarters的财报会议Transcript
-- [ ] 3份10-Kyears报
-- [ ] 12份10-Q季报
-- [ ] 至少20份Related8-Kfilings
-- [ ] 至少5份投资者演示文稿
-- [ ] 至少30条Press Release
-- [ ] 所有filings都有对应的元数据
-- [ ] 文本提取完整无乱码
-- [ ] Dateformat统一
-- [ ] filings命名规范一致
+For each company:
+- [ ] At least 10 quarters of earnings call transcripts
+- [ ] 3 annual 10-K reports
+- [ ] 12 quarterly 10-Q reports
+- [ ] At least 20 related 8-K filings
+- [ ] At least 5 investor presentations
+- [ ] At least 30 press releases
+- [ ] All filings have corresponding metadata
+- [ ] Text extraction complete without garbling
+- [ ] Consistent date format
+- [ ] Uniform filing name conventions
 
 ---
 
-## 法律和道德Note意事项
+## Legal and Ethical Notes
 
-1. **仅使用公开信息**
-   - 所有数据必须是公开可获得的
-   - 不使用任何内部或机密信息
+1. **Use only publicly available information**
+   - All data must be publicly accessible
+   - No use of internal or confidential information
    
-2. **遵守使用条款**
-   - 尊重网站的robots.txt
-   - 遵守API使用限制
-   - 合理的爬取速率(避免过载服务器)
+2. **Comply with Usage Terms**
+   - Respect websites’ robots.txt
+   - Follow API usage limits
+   - Use reasonable scraping rates (avoid server overload)
    
-3. **引用来源**
-   - Transcript所有数据来源
-   - 在报告中适当引用
+3. **Cite sources**
+   - Attribute all data sources for transcripts
+   - Properly cite in reports
    
-4. **数据隐私**
-   - 不收集个人身份信息
-   - 仅关Note公司层面的公开信息
+4. **Data Privacy**
+   - Do not collect personally identifiable information
+   - Focus only on publicly disclosed company-level information
 
 ---
 
-## 数据收集时间表
+## Data Collection Timeline
 
-### 第1周
-- [ ] 收集所有5家公司的SEC 10-Kfilings(3years)
-- [ ] 收集所有5家公司的SEC 10-Qfilings(12quarters)
-- [ ] 建立数据收集脚本
+### Week 1
+- [ ] Collect 10-K filings for all 5 companies (3 years)
+- [ ] Collect 10-Q filings for all 5 companies (12 quarters)
+- [ ] Develop data collection scripts
 
-### 第2周
-- [ ] 收集所有财报会议Transcript
-- [ ] 收集投资者演示文稿
-- [ ] 收集Related8-Kfilings
+### Week 2
+- [ ] Collect all earnings call transcripts
+- [ ] Collect investor presentations
+- [ ] Collect related 8-K filings
 
-### 第3周
-- [ ] 收集Press Release和公告
-- [ ] 数据清理和标准化
-- [ ] 质量检查和验证
-
----
-
-## 故障排除
-
-### 问题: SECDownload失败
-**解决方案**:
-- 检查User-Agent设置
-- 验证CIK号码
-- 检查网络连接
-- 尝试手动Download验证
-
-### 问题: PDF文本提取乱码
-**解决方案**:
-- 尝试不同的PDF库(PyPDF2, pdfplumber, pdfminer)
-- 检查PDF是否为扫描件(需要OCR)
-- 手动验证原始PDF
-
-### 问题: 网站爬取被阻止
-**解决方案**:
-- 降低请求频率
-- 添加User-Agent
-- 使用Selenium模拟浏览器
-- 考虑使用代理
+### Week 3
+- [ ] Collect press releases and announcements
+- [ ] Data cleaning and standardization
+- [ ] Quality checks and validation
 
 ---
 
-## 联系和支持
+## Troubleshooting
 
-如有数据收集问题:
-1. 查看GitHub Issues
-2. 参考项目文档
-3. 联系项目维护者
+### Issue: SEC download failure
+**Solutions**:
+- Check User-Agent setting
+- Verify CIK numbers
+- Check network connection
+- Try manual download for verification
+
+### Issue: PDF text extraction garbling
+**Solutions**:
+- Try different PDF libraries (PyPDF2, pdfplumber, pdfminer)
+- Check if PDF is a scanned image (OCR needed)
+- Manually verify original PDF
+
+### Issue: Website scraping blocked
+**Solutions**:
+- Lower request frequency
+- Add User-Agent string
+- Use Selenium to simulate browser behavior
+- Consider using proxies
+
+---
+
+## Contact and Support
+
+For data collection issues:
+1. Check GitHub Issues
+2. Refer to project documentation
+3. Contact project maintainers

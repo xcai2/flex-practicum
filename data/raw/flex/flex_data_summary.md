@@ -1,21 +1,21 @@
-# Flex Ltd. (FLEX) 投资者关系资料收集
+# Flex Ltd. (FLEX) Investor Relations Data Collection
 
 ## 1. Basic Information
 
-| Field | Value | 备注 |
+| Field | Value | Notes |
 | :--- | :--- | :--- |
-| **公司名称** | Flex Ltd. | 官方名称 |
-| **Stock Ticker** | NASDAQ:FLEX | 纳斯达克上市 |
-| **CIK** | 0000866374 | SEC中央索引密钥 |
-| **Investor Relations URL** | https://investors.flex.com/overview/default.aspx | 投资者关系主页 |
+| **Company Name** | Flex Ltd. | Official Name |
+| **Stock Ticker** | NASDAQ:FLEX | Listed on NASDAQ |
+| **CIK** | 0000866374 | SEC Central Index Key |
+| **Investor Relations URL** | https://investors.flex.com/overview/default.aspx | Investor Relations Homepage |
 
-## 2. SEC 文件Link (CIK: 0000866374)
+## 2. SEC Filings Link (CIK: 0000866374)
 
 **SEC EDGAR Link:** https://www.sec.gov/edgar/browse/?CIK=866374
 
-### 10-K Annual Reports (2021-2024 财years)
+### 10-K Annual Reports (Fiscal Years 2021-2024)
 
-| 报告yearsreports (财years结束日) | 申报Date | Link |
+| Report Year (Fiscal Year End) | Filing Date | Link |
 | :--- | :--- | :--- |
 | **2025** (2025-03-31) | 2025-05-21 | [10-K Filing](https://www.sec.gov/ix?doc=/Archives/edgar/data/866374/000086637425000027/flex-20250331.htm) |
 | **2024** (2024-03-31) | 2024-05-17 | [10-K Filing](https://www.sec.gov/ix?doc=/Archives/edgar/data/866374/000086637424000020/flex-20240331.htm) |
@@ -24,9 +24,9 @@
 
 ### 10-Q Quarterly Reports (past 12 quarters)
 
-| 报告Quarter (结束日) | 申报Date | Link |
+| Report Quarter (End Date) | Filing Date | Link |
 | :--- | :--- | :--- |
-| **Q3 FY2026** (2025-12-31) | 2026-01-31 (Expected) | N/A (尚未发布) |
+| **Q3 FY2026** (2025-12-31) | 2026-01-31 (Expected) | N/A (Not yet released) |
 | **Q2 FY2026** (2025-09-26) | 2025-10-31 | [10-Q Filing](https://www.sec.gov/ix?doc=/Archives/edgar/data/866374/000086637425000051/flex-20250926.htm) |
 | **Q1 FY2026** (2025-06-27) | 2025-07-25 | [10-Q Filing](https://www.sec.gov/ix?doc=/Archives/edgar/data/866374/000086637425000039/flex-20250627.htm) |
 | **Q4 FY2025** (2024-12-31) | 2025-01-31 | [10-Q Filing](https://www.sec.gov/ix?doc=/Archives/edgar/data/866374/000086637425000008/flex-20241231.htm) |
@@ -39,9 +39,9 @@
 | **Q1 FY2024** (2022-09-30) | 2022-10-31 | [10-Q Filing](https://www.sec.gov/ix?doc=/Archives/edgar/data/866374/000086637422000041/flex-20220930.htm) |
 | **Q4 FY2023** (2022-06-30) | 2022-07-29 | [10-Q Filing](https://www.sec.gov/ix?doc=/Archives/edgar/data/866374/000086637422000030/flex-20220630.htm) |
 
-### 8-K 文件 (past 12 calls月内)
+### 8-K Filings (past 12 months)
 
-| 申报Date | Link | 摘要 |
+| Filing Date | Link | Summary |
 | :--- | :--- | :--- |
 | **2025-11-13** | [8-K Filing](https://www.sec.gov/ix?doc=/Archives/edgar/data/866374/000086637425000054/flex-20251113.htm) | Current report (Item 1.01, 8.01, 9.01) |
 | **2025-10-31** | [8-K Filing](https://www.sec.gov/ix?doc=/Archives/edgar/data/866374/000086637425000052/flex-20251031.htm) | Current report (Item 2.02, 9.01) - Earnings Release |
@@ -56,13 +56,13 @@
 | **2024-03-26** | [8-K Filing](https://www.sec.gov/ix?doc=/Archives/edgar/data/866374/000086637424000015/flex-20240326.htm) | Current report (Item 8.01, 9.01) |
 | **2024-02-02** | [8-K Filing](https://www.sec.gov/ix?doc=/Archives/edgar/data/866374/000086637424000005/flex-20240202.htm) | Current report (Item 2.02, 9.01) - Earnings Release |
 
-## 3. Earnings Calls记录Link (past 12 quarters)
+## 3. Earnings Calls Records Link (past 12 quarters)
 
-Flex的Earnings Calls通常与Quarter财报发布同步。我将使用IR网站的“Events”和“Quarterly Results”页面来查找。
+Flex’s Earnings Calls usually coincide with quarterly earnings releases. I used the IR website’s “Events” and “Quarterly Results” pages to find them.
 
-### Earnings Calls/Quarter业绩Link
+### Earnings Calls/Quarterly Results Link
 
-| Quarter | 报告结束日 | Link |
+| Quarter | Report End Date | Link |
 | :--- | :--- | :--- |
 | **Q3 FY2026** | 2025-12-31 | [Q3 FY2026 Results](https://investors.flex.com/financials/quarterly-results/default.aspx) |
 | **Q2 FY2026** | 2025-09-26 | [Q2 FY2026 Results](https://investors.flex.com/financials/quarterly-results/default.aspx) |
@@ -77,13 +77,13 @@ Flex的Earnings Calls通常与Quarter财报发布同步。我将使用IR网站�
 | **Q1 FY2024** | 2022-09-30 | [Q1 FY2024 Results](https://investors.flex.com/financials/quarterly-results/default.aspx) |
 | **Q4 FY2023** | 2022-06-30 | [Q4 FY2023 Results](https://investors.flex.com/financials/quarterly-results/default.aspx) |
 
-*注：由于IR网站通常将所有Quarter结果Link到一calls页面，我将使用该页面作为通用Link，并假设所有12quarters（从Q4 FY2023到Q3 FY2026）的记录都可以在该页面找到。*
+*Note: Because the IR website usually links all quarterly results to one calls page, I am using that page as a general link and assume all 12 quarters (from Q4 FY2023 to Q3 FY2026) records can be found there.*
 
-## 4. 投资者PresentationsLink (past 3 years)
+## 4. Investor Presentations Link (past 3 years)
 
-我通过搜索8-K文件中的“Investor Presentation”找到了past3years（从2022years5月至今）的15reportsPresentations。
+I searched for “Investor Presentation” in 8-K filings and found 15 reports/presentations from the past 3 years (since May 2022).
 
-### 投资者PresentationsLink
+### Investor Presentations Link
 
 | Date | Title | Link |
 | :--- | :--- | :--- |
@@ -105,11 +105,11 @@ Flex的Earnings Calls通常与Quarter财报发布同步。我将使用IR网站�
 
 ## 5. Major News and Announcements (CapEx, Data Center, AI, M&A)
 
-我将使用IR网站的“News”页面和SEC 8-K文件中的非盈利发布（Item 8.01）作为相关新闻的来源。
+I used the IR website’s “News” page and SEC 8-K filings based on non-operational releases (Item 8.01) as sources for relevant news.
 
-### Press Release和公告Link
+### Press Releases and Announcements Link
 
-| Date | Title | Link | 关键词 |
+| Date | Title | Link | Keywords |
 | :--- | :--- | :--- | :--- |
 | **2025-11-13** | Current report (Item 8.01) | [8-K Filing](https://www.sec.gov/ix?doc=/Archives/edgar/data/866374/000086637425000054/flex-20251113.htm) | CapEx, AI, Data Center |
 | **2025-09-10** | Current report (Item 8.01) | [8-K Filing](https://www.sec.gov/ix?doc=/Archives/edgar/data/866374/000086637425000045/flex-20250910.htm) | CapEx, AI, Data Center |
@@ -119,13 +119,13 @@ Flex的Earnings Calls通常与Quarter财报发布同步。我将使用IR网站�
 | **2023-11-20** | Flex to Participate in Upcoming Investor Conferences | [IR News Link](https://investors.flex.com/news/default.aspx) | Investor Conference |
 | **2023-11-13** | Flex and Merck KGaA, Darmstadt, Germany, Win 2025 PDA Drug Delivery Innovation Award | [IR News Link](https://investors.flex.com/news/default.aspx) | Award |
 
-## 6. 关键发现总结
+## 6. Key Findings Summary
 
-Flex Ltd.正积极将其业务重心转向高价Value、高增长的领域，特别是**Data Center**和**人工智能（AI）基础设施**。公司通过其“Advanced Manufacturing”能力，专注于为AI和Data Center客户提供复杂的制造和供应链解决方案，这包括在IR网站上突出展示的**液冷技术**相关公告。虽然Flex继续支持其传统业务，但其战略和资本支出分配明显偏向于技术密集型的高端制造领域，以抓住AI驱动的硬件需求增长。
+Flex Ltd. is actively shifting its business focus toward high-value, high-growth sectors, especially **Data Centers** and **Artificial Intelligence (AI) Infrastructure**. The company leverages its "Advanced Manufacturing" capabilities to provide complex manufacturing and supply chain solutions for AI and Data Center customers, including announcements prominently featuring **liquid cooling technology** on the IR website. While Flex continues to support its traditional businesses, its strategy and capital expenditure allocation clearly favor the technologically intensive high-end manufacturing sectors to capitalize on AI-driven hardware demand growth.
 
-## 7. 统计数量总结
+## 7. Summary of Quantities
 
-| Field | 数量 |
+| Field | Quantity |
 | :--- | :--- |
 | **Earnings Calls Found** | 12 |
 | **10-K Reports Found** | 4 |

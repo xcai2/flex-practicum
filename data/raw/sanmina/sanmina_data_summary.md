@@ -1,55 +1,55 @@
-# Sanmina Corporation (NASDAQ:SANM) - 投资者关系资料汇总
+# Sanmina Corporation (NASDAQ:SANM) - Investor Relations Data Summary
 
-**公司名称:** Sanmina Corporation
-**Stock Ticker:** NASDAQ:SANM
-**SEC CIK:** 0000897723
-**投资者关系网站:** https://ir.sanmina.com/overview/default.aspx
-**公司官网:** https://www.sanmina.com/
+**Company Name:** Sanmina Corporation  
+**Stock Ticker:** NASDAQ:SANM  
+**SEC CIK:** 0000897723  
+**Investor Relations Website:** https://ir.sanmina.com/overview/default.aspx  
+**Company Website:** https://www.sanmina.com/
 
-## 1. SEC 文件 (2021-2024)
+## 1. SEC Filings (2021-2024)
 
-| 文件类型 | 统计范围 | 目标数量 | 实际数量 | Link |
+| Filing Type | Period Covered | Target Quantity | Actual Quantity | Link |
 |---|---|---|---|---|
-| **10-K Annual Report** | 2021-2024 (4reports) | 4 | 4 | [SEC EDGAR 10-K 筛选](https://www.sec.gov/edgar/browse/?CIK=0000897723&owner=exclude&type=10-K) |
-| **10-Q Quarterly Report** | past12quarters (12reports) | 12 | 8 | [SEC EDGAR 10-Q 筛选](https://www.sec.gov/edgar/browse/?CIK=0000897723&owner=exclude&type=10-Q) |
-| **8-K 文件** | 2021-2024 | N/A | 47 | [SEC EDGAR 8-K 筛选](https://www.sec.gov/edgar/browse/?CIK=0000897723&owner=exclude&type=8-K) |
+| **10-K Annual Report** | 2021-2024 (4 reports) | 4 | 4 | [SEC EDGAR 10-K Filter](https://www.sec.gov/edgar/browse/?CIK=0000897723&owner=exclude&type=10-K) |
+| **10-Q Quarterly Report** | past 12 quarters (12 reports) | 12 | 8 | [SEC EDGAR 10-Q Filter](https://www.sec.gov/edgar/browse/?CIK=0000897723&owner=exclude&type=10-Q) |
+| **8-K Filings** | 2021-2024 | N/A | 47 | [SEC EDGAR 8-K Filter](https://www.sec.gov/edgar/browse/?CIK=0000897723&owner=exclude&type=8-K) |
 
-**注:** 10-K和10-Q文件数量统计是基于EDGAR页面上2021years至今的记录。10-Q的实际数量是8reports，因为Sanmina的财yearsQuarter与日历Quarter不完全一致，且我只统计了past12quarters内已发布的10-Q。
+**Note:** The counts for 10-K and 10-Q filings are based on EDGAR records from 2021 to present. The actual number of 10-Qs is 8 reports because Sanmina's fiscal quarters do not exactly align with calendar quarters, and I only counted 10-Qs published within the past 12 quarters.
 
-## 2. Earnings Calls记录 (past12quarters)
+## 2. Earnings Calls Records (past 12 quarters)
 
-| 统计范围 | 目标数量 | 实际数量 | Link |
+| Period Covered | Target Quantity | Actual Quantity | Link |
 |---|---|---|---|
-| past12quarters (2023 Q1 - 2025 Q4) | 12 | 12 | [Sanmina Events & Presentations](https://ir.sanmina.com/events-and-presentations/default.aspx) |
+| past 12 quarters (2023 Q1 - 2025 Q4) | 12 | 12 | [Sanmina Events & Presentations](https://ir.sanmina.com/events-and-presentations/default.aspx) |
 
-**注:** Earnings Calls记录Link数量是基于对投资者关系页面2023、2024和2025years（共12quarters）事件的统计。
+**Note:** The number of Earnings Calls records is based on counting events from the investor relations pages for 2023, 2024, and 2025 (total 12 quarters).
 
-## 3. 投资者Presentations (past3years)
+## 3. Investor Presentations (past 3 years)
 
-| 统计范围 | 目标数量 | 实际数量 | Link |
+| Period Covered | Target Quantity | Actual Quantity | Link |
 |---|---|---|---|
-| past3years (2023-2025) | N/A | 10 | [Sanmina Events & Presentations](https://ir.sanmina.com/events-and-presentations/default.aspx) |
+| past 3 years (2023-2025) | N/A | 10 | [Sanmina Events & Presentations](https://ir.sanmina.com/events-and-presentations/default.aspx) |
 
-**注:** Presentations数量包括Quarter财报Presentations和参加投资者会议的Presentations。
+**Note:** The presentation count includes quarterly earnings presentations and presentations delivered at investor conferences.
 
-## 4. Major News and Announcements (CapEx, AI, Data Center, M&A等)
+## 4. Major News and Announcements (CapEx, AI, Data Center, M&A, etc.)
 
-| 统计范围 | 目标数量 | 实际数量 | Link |
+| Period Covered | Target Quantity | Actual Quantity | Link |
 |---|---|---|---|
 | 2023-2025 | N/A | 3 | [Sanmina News Releases](https://ir.sanmina.com/news/default.aspx) |
 
-**相关新闻列表:**
+**Related News List:**
 
-1.  **2025years12月16日:** SANMINA CORPORATION ANNOUNCES EXPANSION OF ENERGY BUSINESS WITH NEW STATE-OF-THE-ART FACTORY IN HOUSTON, TEXAS
-    *   **关键词:** EXPANSION, FACTORY, CapEx
-    *   **Link:** (需从IR网站获取)
-2.  **2025years10月27日:** SANMINA COMPLETES ACQUISITION OF ZT SYSTEMS DATA CENTER INFRASTRUCTURE MANUFACTURING BUSINESS FROM AMD
-    *   **关键词:** ACQUISITION, DATA CENTER, M&A
-    *   **Link:** (需从IR网站获取)
-3.  **2025years3月12日:** SANMINA ANNOUNCES ACQUISITION OF DATA CENTER INFRASTRUCTURE MANUFACTURING BUSINESS OF ZT SYSTEMS FROM AMD
-    *   **关键词:** ACQUISITION, DATA CENTER, M&A
-    *   **Link:** (需从IR网站获取)
+1.  **December 16, 2025:** SANMINA CORPORATION ANNOUNCES EXPANSION OF ENERGY BUSINESS WITH NEW STATE-OF-THE-ART FACTORY IN HOUSTON, TEXAS  
+    *   **Keywords:** EXPANSION, FACTORY, CapEx  
+    *   **Link:** (To be obtained from IR website)  
+2.  **October 27, 2025:** SANMINA COMPLETES ACQUISITION OF ZT SYSTEMS DATA CENTER INFRASTRUCTURE MANUFACTURING BUSINESS FROM AMD  
+    *   **Keywords:** ACQUISITION, DATA CENTER, M&A  
+    *   **Link:** (To be obtained from IR website)  
+3.  **March 12, 2025:** SANMINA ANNOUNCES ACQUISITION OF DATA CENTER INFRASTRUCTURE MANUFACTURING BUSINESS OF ZT SYSTEMS FROM AMD  
+    *   **Keywords:** ACQUISITION, DATA CENTER, M&A  
+    *   **Link:** (To be obtained from IR website)  
 
-## 5. 关键发现 (Key Findings)
+## 5. Key Findings
 
-Sanmina Corporation在**Data Center基础设施**和**能源业务**方面表现出明确的战略重点和投资。2025years，公司通过**收购**ZT Systems的Data Center基础设施制造业务，显著增强了其在**AI/Data Center**领域的布局。此外，公司宣布**扩建**其位于休斯顿的能源业务工厂，表明对**CapEx**的持续投入，以支持其高增长的垂直市场。这些行动表明Sanmina正在积极调整其业务组合，以抓住AI和能源转型带来的市场机遇，超越其传统的电子制造服务(EMS)业务。
+Sanmina Corporation demonstrates a clear strategic focus and investment in **Data Center Infrastructure** and **Energy Business** areas. In 2025, the company significantly strengthened its footprint in the **AI/Data Center** sector through the **acquisition** of ZT Systems’ Data Center Infrastructure manufacturing business. Additionally, the company announced the **expansion** of its energy business factory located in Houston, signaling ongoing **CapEx** investments to support its high-growth vertical markets. These actions indicate that Sanmina is actively reshaping its business portfolio to capitalize on market opportunities arising from AI and the energy transition, going beyond its traditional Electronic Manufacturing Services (EMS) business.

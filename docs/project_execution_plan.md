@@ -1,112 +1,112 @@
-# FlexPracticum 项目详细执行计划
+# FlexPracticum Project Detailed Execution Plan
 
-## 项目概览
-本项目旨在为Flex公司开发一个AI驱动的竞争情报分析系统,通过NLP技术分析合同制造业竞争对手的资本支出策略,特别关NoteAI/数据中心投资与传统业务的平衡。
-
----
-
-## 整体项目时间线和阶段划分
-
-### 阶段1: 数据聚合与清理 (Data Aggregation & Cleaning)
-**Expected时间**: 2-3周
-
-### 阶段2: NLP管道开发 (NLP Pipeline Development)
-**Expected时间**: 3-4周
-
-### 阶段3: 应用程序构建 (Application Construction)
-**Expected时间**: 3-4周
-
-### 阶段4: 战略分析与报告 (Strategic Analysis & Reporting)
-**Expected时间**: 2周
+## Project Overview
+This project aims to develop an AI-driven competitive intelligence analysis system for Flex, utilizing NLP technology to analyze the capital expenditure strategies of competitors in the contract manufacturing industry, with a special focus on the balance between NoteAI/data center investments and traditional businesses.
 
 ---
 
-## 阶段1详细步骤: 数据聚合与清理
+## Overall Project Timeline and Phase Division
 
-### 1.1 数据收集准备工作
-**任务清单**:
-- [ ] 确定五家公司的股票代码和官方网站
-- [ ] 识别主要数据源(SEC EDGAR、公司Investor Relations Page、金融数据平台)
-- [ ] 设置数据存储结构和命名规范
-- [ ] 准备数据收集工具和脚本
+### Phase 1: Data Aggregation & Cleaning  
+**Expected Time**: 2-3 weeks
 
-### 1.2 财报电话会议Transcript收集
-**目标**: 每家公司past12个quarters(3years)的Transcript
+### Phase 2: NLP Pipeline Development  
+**Expected Time**: 3-4 weeks
 
-**数据源**:
-- Seeking Alpha (免费部分Transcript)
-- 公司官方Investor Relations Page
-- SEC 8-Kfilings附件
-- 金融数据API (如Alpha Vantage, Financial Modeling Prep)
+### Phase 3: Application Construction  
+**Expected Time**: 3-4 weeks
 
-**收集内容**:
-- 完整的会议Transcript文本
-- Date和quarters信息
-- 管理层准备发言部分
-- Q&A环节Transcript
-- 参与的分析师和高管名单
+### Phase 4: Strategic Analysis & Reporting  
+**Expected Time**: 2 weeks
 
-**数据format**: 
-- 原始format: PDF/HTML
-- 处理后format: JSON/CSV + 纯文本
+---
 
-### 1.3 投资者日演示文稿收集
-**数据源**:
-- 公司Investor Relations Page
-- SEC 8-Kfilings
-- 投资者会议网站
+## Stage 1 Detailed Steps: Data Aggregation and Cleaning
 
-**收集内容**:
-- 演示文稿PDF
-- 视频Transcript(如有)
-- 配套Press Release
+### 1.1 Data Collection Preparation
+**Task List**:
+- [ ] Identify the stock codes and official websites of the five companies
+- [ ] Identify primary data sources (SEC EDGAR, company Investor Relations Page, financial data platforms)
+- [ ] Set up data storage structure and naming conventions
+- [ ] Prepare data collection tools and scripts
 
-### 1.4 SECfilings收集
-**目标filings类型**:
-- **10-K** (years度报告): past3years
-- **10-Q** (quarters报告): past12个quarters
-- **8-K** (重大事件报告): past3yearsRelated的
+### 1.2 Earnings Call Transcript Collection
+**Goal**: Transcripts for the past 12 quarters (3 years) for each company
 
-**重点提取部分**:
-- Item 1: Business (业务描述)
-- Item 1A: Risk Factors (Risk factors)
+**Data Sources**:
+- Seeking Alpha (free transcript sections)
+- Company official Investor Relations Page
+- SEC 8-K filings attachments
+- Financial data APIs (e.g., Alpha Vantage, Financial Modeling Prep)
+
+**Collected Content**:
+- Complete meeting transcript text
+- Date and quarter information
+- Management prepared remarks section
+- Q&A session transcript
+- List of participating analysts and executives
+
+**Data Format**: 
+- Original format: PDF/HTML
+- Processed format: JSON/CSV + plain text
+
+### 1.3 Investor Day Presentation Collection
+**Data Sources**:
+- Company Investor Relations Page
+- SEC 8-K filings
+- Investor conference websites
+
+**Collected Content**:
+- Presentation PDF
+- Video transcript (if available)
+- Accompanying press release
+
+### 1.4 SEC Filings Collection
+**Target Filing Types**:
+- **10-K** (annual reports): past 3 years
+- **10-Q** (quarterly reports): past 12 quarters
+- **8-K** (significant event reports): related past 3 years
+
+**Key Sections to Extract**:
+- Item 1: Business (business description)
+- Item 1A: Risk Factors
 - Item 7: MD&A (Management Discussion and Analysis)
-- Item 8: Financial Statements (Financial Statements - 特别是CapEx数据)
-- 重大公告和Press Release
+- Item 8: Financial Statements (especially CapEx data)
+- Significant announcements and press releases
 
-**数据源**: SEC EDGAR系统 (https://www.sec.gov/edgar)
+**Data Source**: SEC EDGAR system (https://www.sec.gov/edgar)
 
-### 1.5 Press Release和公告收集
-**关Note主题**:
-- 新工厂开业或扩建
-- 重大设备采购
-- M&A Activity(M&A)
-- 战略合作伙伴关系
-- 技术投资和研发中心
-- 液冷技术、AI基础设施Related投资
+### 1.5 Press Release and Announcement Collection
+**Key Topics**:
+- New factory openings or expansions
+- Major equipment purchases
+- M&A activity
+- Strategic partnerships
+- Technology investments and R&D centers
+- Liquid cooling technology, AI infrastructure-related investments
 
-**数据源**:
-- 公司新闻中心
+**Data Sources**:
+- Company news centers
 - PR Newswire
 - Business Wire
-- Google NewsSearch
+- Google News Search
 
-### 1.6 分析师报告收集(可选)
-**数据源**:
-- 大学图书馆数据库Visit
-- 免费分析师报告网站
-- 投资平台(如Seeking Alpha)
+### 1.6 Analyst Report Collection (Optional)
+**Data Sources**:
+- University library databases
+- Free analyst report websites
+- Investment platforms (e.g., Seeking Alpha)
 
-### 1.7 数据清理和标准化
-**清理任务**:
-1. **文本提取**: 从PDF/HTML提取纯文本
-2. **format标准化**: 统一Dateformat、公司名称、货币单位
-3. **去重**: 删除重复内容
-4. **结构化**: 将非结构化文本转换为结构化JSONformat
-5. **元数据添加**: 添加公司名称、文档类型、Date、来源等元数据
-6. **质量检查**: 验证数据完整性和准确性
+### 1.7 Data Cleaning and Standardization
+**Cleaning Tasks**:
+1. **Text extraction**: Extract plain text from PDF/HTML
+2. **Format standardization**: Normalize date formats, company names, currency units
+3. **Deduplication**: Remove duplicate content
+4. **Structuring**: Convert unstructured text into structured JSON format
+5. **Metadata addition**: Add metadata such as company name, document type, date, source, etc.
+6. **Quality check**: Verify data integrity and accuracy
 
-**输出format示例**:
+**Output Format Example**:
 ```json
 {
   "company": "Jabil Inc.",
@@ -130,541 +130,539 @@
 
 ---
 
-## 阶段2详细步骤: NLP管道开发
+## Stage 2 Detailed Steps: NLP Pipeline Development
 
-### 2.1 环境设置
-**技术栈**:
+### 2.1 Environment Setup
+**Tech Stack**:
 - Python 3.9+
-- LangChain / LlamaIndex (RAG框架)
+- LangChain / LlamaIndex (RAG framework)
 - OpenAI API / Anthropic Claude / Llama
-- spaCy / NLTK (文本预处理)
-- Pandas (数据处理)
+- spaCy / NLTK (text preprocessing)
+- Pandas (data processing)
 
-### 2.2 实体提取开发
-**目标实体类型**:
-- 公司名称和子公司
-- 地理位置(工厂、数据中心位置)
-- 技术类型(液冷、AI芯片、服务器等)
-- 财务数字(投资金额、CapEx数字)
-- 时间表达式(项目时间线)
-- 合作伙伴名称
+### 2.2 Entity Extraction Development
+**Target Entity Types**:
+- Company names and subsidiaries
+- Geographic locations (factories, data center locations)
+- Technology types (liquid cooling, AI chips, servers, etc.)
+- Financial figures (investment amounts, CapEx numbers)
+- Time expressions (project timelines)
+- Partner names
 
-**方法**:
-- 使用预训练NER模型
-- 开发自定义提示词用于LLM提取
-- 建立实体识别规则库
+**Methods**:
+- Use pretrained NER models
+- Develop custom prompts for LLM extraction
+- Establish entity recognition rule base
 
-### 2.3 CapEx事件提取
-**事件类型定义**:
-1. **工厂开业/扩建** (Factory Opening/Expansion)
-2. **设备采购** (Equipment Purchase)
-3. **M&A Activity** (M&A Activity)
-4. **研发投资** (R&D Investment)
-5. **技术升级** (Technology Upgrade)
-6. **合作伙伴关系** (Partnership)
+### 2.3 CapEx Event Extraction
+**Event Type Definition**:
+1. **Factory Opening/Expansion**
+2. **Equipment Purchase**
+3. **M&A Activity**
+4. **R&D Investment**
+5. **Technology Upgrade**
+6. **Partnership**
 
-**提取信息**:
-- 事件类型
-- 投资金额
-- 地理位置
-- 时间线
-- 业务领域(AI/数据中心 vs 传统)
-- Related技术
+**Information to Extract**:
+- Event type
+- Investment amount
+- Geographic location
+- Timeline
+- Business domain (AI/data center vs traditional)
+- Related technologies
 
-### 2.4 投资分类系统
-**分类维度1: 业务类型**
-- **AI/数据中心**: 
-  - 超大规模数据中心
-  - AI训练/推理基础设施
-  - 液冷技术
-  - 高性能计算(HPC)
-  - GPU/AI加速器制造
+### 2.4 Investment Classification System
+**Classification Dimension 1: Business Type**
+- **AI/Data Center**: 
+  - Hyperscale data centers
+  - AI training/inference infrastructure
+  - Liquid cooling technology
+  - High-performance computing (HPC)
+  - GPU/AI accelerator manufacturing
   
-- **传统/非AI**:
-  - 医疗设备制造
-  - 汽车电子
-  - 工业自动化
-  - 航空航天
-  - 消费电子
+- **Traditional/Non-AI**:
+  - Medical equipment manufacturing
+  - Automotive electronics
+  - Industrial automation
+  - Aerospace
+  - Consumer electronics
 
-**分类维度2: 投资类型**
-- 资本密集型(CapEx)
-- 运营投资(OpEx)
-- 战略投资
+**Classification Dimension 2: Investment Type**
+- Capital-intensive (CapEx)
+- Operational investment (OpEx)
+- Strategic investment
 
-### 2.5 情感分析
-**分析目标**:
-- 管理层对AI/数据中心业务的乐观程度
-- 对传统业务的信心水平
-- 风险和担忧的表达
-- 竞争压力的感知
+### 2.5 Sentiment Analysis
+**Analysis Goals**:
+- Management’s optimism about AI/data center business
+- Confidence level in traditional business
+- Expression of risks and concerns
+- Perceived competitive pressures
 
-**方法**:
-- 使用LLM进行上下文情感分析
-- 开发特定领域的情感词典
-- 量化情感得分(-1到+1)
+**Methods**:
+- Use LLMs for contextual sentiment analysis
+- Develop domain-specific sentiment lexicons
+- Quantify sentiment scores (from -1 to +1)
 
-### 2.6 提示词工程
-**开发专用提示词模板**:
-1. CapEx事件提取提示词
-2. 投资分类提示词
-3. 情感分析提示词
-4. 战略意图识别提示词
-5. Risk factors提取提示词
+### 2.6 Prompt Engineering
+**Develop Dedicated Prompt Templates**:
+1. CapEx event extraction prompts
+2. Investment classification prompts
+3. Sentiment analysis prompts
+4. Strategic intent recognition prompts
+5. Risk factors extraction prompts
 
-### 2.7 管道测试和验证
-- 在样本数据上测试管道
-- 人工验证提取准确性
-- 迭代改进提示词和规则
-- 建立质量指标(准确率、召回率)
-
----
-
-## 阶段3详细步骤: 应用程序构建
-
-### 3.1 技术架构设计
-**系统组件**:
-1. **数据存储层**: 向量数据库 + 关系数据库
-2. **NLP处理层**: LLM API集成
-3. **RAG引擎**: 检索和生成系统
-4. **Web应用层**: 用户界面
-5. **API层**: 后端服务
-
-**技术选择**:
-- **向量数据库**: Pinecone / Weaviate / ChromaDB / FAISS
-- **关系数据库**: PostgreSQL / SQLite
-- **后端框架**: FastAPI / Flask
-- **前端框架**: React / Streamlit / Gradio
-- **部署**: Docker + 云服务(AWS/Azure/GCP) 或本地
-
-### 3.2 向量数据库实现
-**步骤**:
-1. 选择嵌入模型(OpenAI embeddings / Sentence Transformers)
-2. 文档分块策略(chunk size, overlap)
-3. 创建文档索引
-4. 实现语义Search功能
-5. 优化检索性能
-
-**索引结构**:
-- 按公司分区
-- 按文档类型分区
-- 按时间范围分区
-- 元数据过滤
-
-### 3.3 RAG系统开发
-**检索策略**:
-- 语义相似度Search
-- 混合Search(语义+关键词)
-- 重排序(Re-ranking)
-- 上下文窗口优化
-
-**生成策略**:
-- 引用来源
-- 多文档综合
-- 置信度评分
-- 答案验证
-
-### 3.4 聊天机器人界面开发
-**功能需求**:
-1. 自然语言查询输入
-2. 实时响应生成
-3. 来源引用显示
-4. 对话历史管理
-5. 查询建议和自动完成
-6. 结果导出功能
-
-**示例查询**:
-- "哪些竞争对手正在北美建设液冷能力?"
-- "Jabil在past两years在AI数据中心上投资了多少?"
-- "比较Celestica和Sanmina的CapEx分配策略"
-- "识别所有公司在医疗设备领域的投资趋势"
-
-### 3.5 可视化仪表板
-**可视化组件**:
-1. **投资分布饼图**: AI vs 传统业务
-2. **时间序列图**: CapEx趋势
-3. **地理热图**: 投资地理分布
-4. **竞争对手比较**: 并排对比
-5. **风险矩阵**: AI依赖度评估
-
-### 3.6 用户认证和权限
-- 基本登录系统
-- 查询日志Transcript
-- 使用分析
-
-### 3.7 测试和部署
-- 单元测试
-- 集成测试
-- 用户验收测试
-- 性能测试
-- 部署到生产环境
+### 2.7 Pipeline Testing and Validation
+- Test pipeline on sample data
+- Manually verify extraction accuracy
+- Iteratively improve prompts and rules
+- Establish quality metrics (precision, recall)
 
 ---
 
-## 阶段4详细步骤: 战略分析与报告
+## Phase 3 Detailed Steps: Application Building
 
-### 4.1 关键战略问题分析
-**核心问题清单**:
-1. 每个竞争对手在AI/数据中心vs传统业务的投资比例?
-2. 谁在液冷技术上投资最激进?
-3. 哪些地理区域是投资热点?
-4. 竞争对手的合作伙伴网络如何?
-5. 行业整体对AI增长的依赖程度?
-6. 是否存在过度投资/泡沫风险?
-7. Flex的"白色空间"机会在哪里?
-8. 竞争对手的风险敞口如何?
+### 3.1 Technical Architecture Design
+**System Components**:
+1. **Data Storage Layer**: Vector database + relational database
+2. **NLP Processing Layer**: LLM API integration
+3. **RAG Engine**: Retrieval and generation system
+4. **Web Application Layer**: User interface
+5. **API Layer**: Backend services
 
-### 4.2 使用RAG工具进行深度查询
-- 对每个战略问题进行系统查询
-- 收集和验证答案
-- 交叉引用多个来源
-- 量化发现
+**Technology Choices**:
+- **Vector Database**: Pinecone / Weaviate / ChromaDB / FAISS
+- **Relational Database**: PostgreSQL / SQLite
+- **Backend Framework**: FastAPI / Flask
+- **Frontend Framework**: React / Streamlit / Gradio
+- **Deployment**: Docker + Cloud services (AWS/Azure/GCP) or on-premises
 
-### 4.3 数据综合和洞察提取
-**分析维度**:
-1. **投资强度**: 绝对金额和相对比例
-2. **战略方向**: 增长领域vs收缩领域
-3. **时间趋势**: 投资加速或减速
-4. **地理策略**: 区域扩张模式
-5. **技术焦点**: 特定技术投资
-6. **合作模式**: 战略联盟和伙伴关系
+### 3.2 Vector Database Implementation
+**Steps**:
+1. Choose embedding model (OpenAI embeddings / Sentence Transformers)
+2. Document chunking strategy (chunk size, overlap)
+3. Create document index
+4. Implement semantic search functionality
+5. Optimize retrieval performance
 
-### 4.4 风险评估矩阵开发
-**评估维度**:
-- **X轴**: AI/数据中心投资占比
-- **Y轴**: 投资增长率
-- **气泡Size**: 总CapEx规模
-- **颜色**: 风险等级
+**Index Structure**:
+- Partitioned by company
+- Partitioned by document type
+- Partitioned by time range
+- Metadata filtering
 
-**风险分类**:
-- 🟢 低风险: 平衡投资组合
-- 🟡 中风险: 适度AI倾斜
-- 🔴 高风险: 过度依赖AI增长
+### 3.3 RAG System Development
+**Retrieval Strategies**:
+- Semantic similarity search
+- Hybrid search (semantic + keyword)
+- Re-ranking
+- Context window optimization
 
-### 4.5 竞争格局报告撰写
-**报告结构**:
-1. **执行摘要**
-   - 关键发现
-   - 主要建议
+**Generation Strategies**:
+- Source citation
+- Multi-document synthesis
+- Confidence scoring
+- Answer verification
+
+### 3.4 Chatbot Interface Development
+**Feature Requirements**:
+1. Natural language query input
+2. Real-time response generation
+3. Source citation display
+4. Conversation history management
+5. Query suggestions and autocomplete
+6. Result export functionality
+
+**Example Queries**:
+- "Which competitors are building liquid cooling capabilities in North America?"
+- "How much has Jabil invested in AI data centers over the past two years?"
+- "Compare CapEx allocation strategies between Celestica and Sanmina"
+- "Identify all companies' investment trends in the medical device sector"
+
+### 3.5 Visualization Dashboard
+**Visualization Components**:
+1. **Investment Distribution Pie Chart**: AI vs traditional business
+2. **Time Series Chart**: CapEx trends
+3. **Geographical Heatmap**: Investment geographic distribution
+4. **Competitor Comparison**: Side-by-side comparison
+5. **Risk Matrix**: AI dependency assessment
+
+### 3.6 User Authentication and Permissions
+- Basic login system
+- Query log transcript
+- Usage analytics
+
+### 3.7 Testing and Deployment
+- Unit testing
+- Integration testing
+- User acceptance testing
+- Performance testing
+- Deployment to production environment
+
+---
+
+## Stage 4 Detailed Steps: Strategic Analysis and Reporting
+
+### 4.1 Key Strategic Issues Analysis
+**Core Questions List**:
+1. What is each competitor’s investment ratio in AI/data centers vs. traditional business?
+2. Who is the most aggressive investor in liquid cooling technology?
+3. Which geographic regions are investment hotspots?
+4. How are competitors’ partner networks structured?
+5. What is the industry’s overall dependence on AI growth?
+6. Is there a risk of overinvestment/bubble?
+7. Where are Flex’s "white space" opportunities?
+8. What are competitors’ risk exposures?
+
+### 4.2 In-depth Queries Using RAG Tool
+- Systematic queries on each strategic question
+- Collect and verify answers
+- Cross-reference multiple sources
+- Quantify findings
+
+### 4.3 Data Integration and Insight Extraction
+**Analysis Dimensions**:
+1. **Investment Intensity**: Absolute amounts and relative ratios
+2. **Strategic Direction**: Growth areas vs. contraction areas
+3. **Time Trends**: Investment acceleration or deceleration
+4. **Geographic Strategy**: Regional expansion patterns
+5. **Technology Focus**: Specific technology investments
+6. **Collaboration Models**: Strategic alliances and partnerships
+
+### 4.4 Risk Assessment Matrix Development
+**Assessment Dimensions**:
+- **X-axis**: AI/data center investment proportion
+- **Y-axis**: Investment growth rate
+- **Bubble Size**: Total CapEx scale
+- **Color**: Risk level
+
+**Risk Classification**:
+- 🟢 Low Risk: Balanced investment portfolio
+- 🟡 Medium Risk: Moderate AI tilt
+- 🔴 High Risk: Over-reliance on AI growth
+
+### 4.5 Competitive Landscape Report Writing
+**Report Structure**:
+1. **Executive Summary**
+   - Key findings
+   - Primary recommendations
    
-2. **行业概览**
-   - 市场趋势
-   - 技术驱动因素
+2. **Industry Overview**
+   - Market trends
+   - Technology drivers
    
-3. **竞争对手深度分析** (每家公司)
+3. **Competitor Deep Dive** (each company)
    - Jabil Inc.
    - Celestica
    - Benchmark Electronics
    - Sanmina Corporation
-   - Flex (基准)
+   - Flex (benchmark)
    
-4. **比较分析**
-   - 投资策略对比
-   - 优势和劣势
+4. **Comparative Analysis**
+   - Investment strategy comparison
+   - Strengths and weaknesses
    
-5. **风险评估**
-   - 市场过热风险
-   - 个别公司风险敞口
+5. **Risk Assessment**
+   - Market overheating risk
+   - Individual company risk exposure
    
-6. **战略建议**
-   - Flex的机会领域
-   - 投资平衡建议
-   - 风险缓解策略
+6. **Strategic Recommendations**
+   - Flex’s opportunity areas
+   - Investment balance suggestions
+   - Risk mitigation strategies
 
-### 4.6 演示文稿制作
-**format**: PowerPoint/Google Slides
+### 4.6 Presentation Preparation
+**Format**: PowerPoint/Google Slides
 
-**内容**:
-- 视觉化数据
-- 关键图表和图形
-- 清晰的叙事线
-- 可操作的建议
+**Content**:
+- Visualized data
+- Key charts and graphics
+- Clear narrative flow
+- Actionable recommendations
 
-### 4.7 最终交付
-**交付清单**:
-- ✅ 功能性Web应用程序(本地或云端)
-- ✅ 完整源代码仓库(GitHub)
-- ✅ 技术文档和用户手册
-- ✅ 战略格局报告(PDF)
-- ✅ 演示文稿(PPT)
-- ✅ 风险评估矩阵(可视化)
-- ✅ 数据更新指南
+### 4.7 Final Deliverables
+**Delivery Checklist**:
+- ✅ Functional web application (local or cloud-based)
+- ✅ Complete source code repository (GitHub)
+- ✅ Technical documentation and user manual
+- ✅ Strategic landscape report (PDF)
+- ✅ Presentation (PPT)
+- ✅ Risk assessment matrix (visualized)
+- ✅ Data update guide
 
 ---
 
-## 项目filings夹结构
+## Project filings Folder Structure
 
 ```
 flex-practicum/
-├── README.md                          # 项目概述和快速开始
-├── docs/                              # 文档目录
-│   ├── project_requirements.md        # 项目需求文档
-│   ├── data_collection_guide.md       # 数据收集指南
-│   ├── api_documentation.md           # API文档
-│   └── user_manual.md                 # 用户手册
+├── README.md                          # Project overview and quick start
+├── docs/                              # Documentation directory
+│   ├── project_requirements.md        # Project requirements document
+│   ├── data_collection_guide.md       # Data collection guide
+│   ├── api_documentation.md           # API documentation
+│   └── user_manual.md                 # User manual
 │
-├── data/                              # 数据目录
-│   ├── raw/                           # 原始数据
-│   │   ├── jabil/                     # Jabil公司数据
-│   │   │   ├── earnings_calls/       # 财报电话会议
-│   │   │   ├── sec_filings/          # SECfilings
-│   │   │   ├── investor_presentations/ # 投资者演示
-│   │   │   └── news/                  # 新闻和公告
+├── data/                              # Data directory
+│   ├── raw/                           # Raw data
+│   │   ├── jabil/                     # Jabil company data
+│   │   │   ├── earnings_calls/       # Earnings calls
+│   │   │   ├── sec_filings/          # SEC filings
+│   │   │   ├── investor_presentations/ # Investor presentations
+│   │   │   └── news/                  # News and announcements
 │   │   ├── celestica/
 │   │   ├── benchmark/
 │   │   ├── sanmina/
 │   │   └── flex/
 │   │
-│   ├── processed/                     # 处理后的数据
-│   │   ├── cleaned_text/              # 清理后的文本
-│   │   ├── structured_json/           # 结构化JSON
-│   │   └── embeddings/                # 向量嵌入
+│   ├── processed/                     # Processed data
+│   │   ├── cleaned_text/              # Cleaned text
+│   │   ├── structured_json/           # Structured JSON
+│   │   └── embeddings/                # Vector embeddings
 │   │
-│   └── analysis/                      # 分析结果
-│       ├── capex_events.csv           # CapEx事件提取
-│       ├── investment_classification.csv # 投资分类
-│       └── sentiment_scores.csv       # 情感分析结果
+│   └── analysis/                      # Analysis results
+│       ├── capex_events.csv           # CapEx event extraction
+│       ├── investment_classification.csv # Investment classification
+│       └── sentiment_scores.csv       # Sentiment analysis results
 │
-├── src/                               # 源代码
-│   ├── data_collection/               # 数据收集脚本
-│   │   ├── sec_scraper.py            # SECfilings爬虫
-│   │   ├── earnings_call_scraper.py  # 财报会议爬虫
-│   │   └── news_scraper.py           # 新闻爬虫
+├── src/                               # Source code
+│   ├── data_collection/               # Data collection scripts
+│   │   ├── sec_scraper.py            # SEC filings scraper
+│   │   ├── earnings_call_scraper.py  # Earnings call scraper
+│   │   └── news_scraper.py           # News scraper
 │   │
-│   ├── data_processing/               # 数据处理
-│   │   ├── text_cleaner.py           # 文本清理
-│   │   ├── pdf_extractor.py          # PDF提取
-│   │   └── data_normalizer.py        # 数据标准化
+│   ├── data_processing/               # Data processing
+│   │   ├── text_cleaner.py           # Text cleaning
+│   │   ├── pdf_extractor.py          # PDF extraction
+│   │   └── data_normalizer.py        # Data normalization
 │   │
-│   ├── nlp/                           # NLP管道
-│   │   ├── entity_extraction.py      # 实体提取
-│   │   ├── capex_event_detector.py   # CapEx事件检测
-│   │   ├── investment_classifier.py  # 投资分类
-│   │   └── sentiment_analyzer.py     # 情感分析
+│   ├── nlp/                           # NLP pipeline
+│   │   ├── entity_extraction.py      # Entity extraction
+│   │   ├── capex_event_detector.py   # CapEx event detection
+│   │   ├── investment_classifier.py  # Investment classification
+│   │   └── sentiment_analyzer.py     # Sentiment analysis
 │   │
-│   ├── rag/                           # RAG系统
-│   │   ├── vector_store.py           # 向量数据库
-│   │   ├── retriever.py              # 检索器
-│   │   ├── generator.py              # 生成器
-│   │   └── rag_pipeline.py           # RAG管道
+│   ├── rag/                           # RAG system
+│   │   ├── vector_store.py           # Vector database
+│   │   ├── retriever.py              # Retriever
+│   │   ├── generator.py              # Generator
+│   │   └── rag_pipeline.py           # RAG pipeline
 │   │
-│   ├── app/                           # Web应用
-│   │   ├── backend/                  # 后端
-│   │   │   ├── main.py               # FastAPI主filings
-│   │   │   ├── api/                  # API路由
-│   │   │   └── models/               # 数据模型
+│   ├── app/                           # Web application
+│   │   ├── backend/                  # Backend
+│   │   │   ├── main.py               # FastAPI main filings
+│   │   │   ├── api/                  # API routes
+│   │   │   └── models/               # Data models
 │   │   │
-│   │   └── frontend/                 # 前端
-│   │       ├── src/                  # React源码
-│   │       ├── public/               # 静态资源
+│   │   └── frontend/                 # Frontend
+│   │       ├── src/                  # React source code
+│   │       ├── public/               # Static assets
 │   │       └── package.json
 │   │
-│   └── analysis/                      # 分析脚本
-│       ├── strategic_analysis.py     # 战略分析
-│       ├── risk_assessment.py        # 风险评估
-│       └── visualization.py          # 可视化
+│   └── analysis/                      # Analysis scripts
+│       ├── strategic_analysis.py     # Strategic analysis
+│       ├── risk_assessment.py        # Risk assessment
+│       └── visualization.py          # Visualization
 │
-├── notebooks/                         # Jupyter笔记本
-│   ├── data_exploration.ipynb        # 数据探索
-│   ├── nlp_experiments.ipynb         # NLP实验
-│   └── analysis_visualization.ipynb  # 分析可视化
+├── notebooks/                         # Jupyter notebooks
+│   ├── data_exploration.ipynb        # Data exploration
+│   ├── nlp_experiments.ipynb         # NLP experiments
+│   └── analysis_visualization.ipynb  # Analysis visualization
 │
-├── reports/                           # 报告输出
-│   ├── strategic_landscape_report.pdf # 战略格局报告
-│   ├── presentation.pptx             # 演示文稿
-│   └── risk_assessment_matrix.png    # 风险矩阵
+├── reports/                           # Report outputs
+│   ├── strategic_landscape_report.pdf # Strategic landscape report
+│   ├── presentation.pptx             # Presentation
+│   └── risk_assessment_matrix.png    # Risk matrix
 │
-├── tests/                             # 测试
+├── tests/                             # Tests
 │   ├── test_data_processing.py
 │   ├── test_nlp.py
 │   └── test_rag.py
 │
-├── config/                            # 配置filings
-│   ├── config.yaml                   # 主配置
-│   └── prompts.yaml                  # 提示词模板
+├── config/                            # Configuration filings
+│   ├── config.yaml                   # Main configuration
+│   └── prompts.yaml                  # Prompt templates
 │
-├── requirements.txt                   # Python依赖
-├── .env.example                       # 环境变量示例
+├── requirements.txt                   # Python dependencies
+├── .env.example                       # Environment variables example
 ├── .gitignore
-└── docker-compose.yml                 # Docker配置
+└── docker-compose.yml                 # Docker configuration
 ```
 
----
+## Today's Task: Data Collection for Five Companies
 
-## 今日任务: 五家公司数据收集
+### Target Company List
+1. **Jabil Inc.** (Stock Symbol: JBL)  
+2. **Celestica Inc.** (Stock Symbol: CLS)  
+3. **Benchmark Electronics** (Stock Symbol: BHE)  
+4. **Sanmina Corporation** (Stock Symbol: SANM)  
+5. **Flex Ltd.** (Stock Symbol: FLEX)  
 
-### 目标公司清单
-1. **Jabil Inc.** (股票代码: JBL)
-2. **Celestica Inc.** (股票代码: CLS)
-3. **Benchmark Electronics** (股票代码: BHE)
-4. **Sanmina Corporation** (股票代码: SANM)
-5. **Flex Ltd.** (股票代码: FLEX)
+### Focus for Today's Collection  
+Collect the following information for each company:
 
-### 今日收集重点
-对每家公司收集以下信息:
+#### Basic Information
+- Full Company Name  
+- Stock Symbol  
+- Official Website  
+- Investor Relations Page URL  
+- Headquarters Location  
+- Business Overview  
 
-#### 基本信息
-- 公司全称
-- 股票代码
-- 官方网站
-- Investor Relations PageURL
-- 总部位置
-- 业务概述
+#### Earnings Call Transcripts  
+- Transcripts for the past 12 quarters (2022 Q1 - 2024 Q4)  
+- Source Links  
+- Download or Save Transcripts  
 
-#### 财报电话会议Transcript
-- past12个quarters的Transcript(2022 Q1 - 2024 Q4)
-- 来源链接
-- Download或保存Transcript
+#### SEC Filings  
+- Most recent 3 years of 10-K reports (2021, 2022, 2023)  
+- Most recent 12 quarterly 10-Q reports  
+- Related 8-K material event reports  
 
-#### SECfilings
-- 最近3份10-Kyears报(2021, 2022, 2023)
-- 最近12份10-Q季报
-- Related8-K重大事件报告
+#### Investor Presentations  
+- Recent Investor Day presentations  
+- Quarterly earnings presentations  
 
-#### 投资者演示
-- Recent投资者日演示文稿
-- quarters业绩演示文稿
-
-#### 新闻和公告
-- past3years的重大Press Release
-- 关于CapEx、工厂扩建、技术投资的公告
+#### News and Announcements  
+- Major press releases from the past 3 years  
+- Announcements regarding CapEx, factory expansions, and technology investments  
 
 ---
 
-## 数据收集最佳实践
+## Best Practices for Data Collection
 
-### 1. 数据来源优先级
-1. **官方来源** (最高优先级)
-   - 公司Investor Relations Page
+### 1. Data Source Prioritization
+1. **Official Sources** (Highest Priority)
+   - Company Investor Relations Page
    - SEC EDGAR
    
-2. **可靠的第三方平台**
+2. **Reliable Third-Party Platforms**
    - Seeking Alpha
    - Yahoo Finance
    - Financial Modeling Prep
    
-3. **新闻聚合**
+3. **News Aggregators**
    - Google News
    - Business Wire
    - PR Newswire
 
-### 2. 数据质量控制
-- ✅ 验证数据来源可靠性
-- ✅ 检查Date和版本
-- ✅ 确保文本完整性
-- ✅ Transcript收集时间和方法
-- ✅ 保留原始filings备份
+### 2. Data Quality Control
+- ✅ Verify the reliability of data sources
+- ✅ Check dates and versions
+- ✅ Ensure text completeness
+- ✅ Transcript collection time and method
+- ✅ Retain backups of original filings
 
-### 3. 法律和道德考虑
-- ✅ 仅使用公开Available的信息
-- ✅ 遵守网站使用条款
-- ✅ 尊重robots.txt
-- ✅ 合理的爬取速率
-- ✅ 适当引用来源
+### 3. Legal and Ethical Considerations
+- ✅ Use only publicly available information
+- ✅ Comply with website terms of use
+- ✅ Respect robots.txt
+- ✅ Reasonable crawling rate
+- ✅ Properly cite sources
 
-### 4. 组织和命名规范
-**filings命名format**:
-- 财报会议: `{company}_{YYYY}_Q{Q}_earnings_call.txt`
-- SECfilings: `{company}_{YYYY}_{filing_type}.pdf`
-- 演示文稿: `{company}_{YYYY_MM_DD}_investor_presentation.pdf`
-- 新闻: `{company}_{YYYY_MM_DD}_{topic}.txt`
+### 4. Organization and Naming Conventions
+**filings naming format**:
+- Earnings calls: `{company}_{YYYY}_Q{Q}_earnings_call.txt`
+- SEC filings: `{company}_{YYYY}_{filing_type}.pdf`
+- Presentations: `{company}_{YYYY_MM_DD}_investor_presentation.pdf`
+- News: `{company}_{YYYY_MM_DD}_{topic}.txt`
 
-**示例**:
+**Examples**:
 - `jabil_2024_Q3_earnings_call.txt`
 - `celestica_2023_10K.pdf`
 - `benchmark_2024_06_15_investor_day.pdf`
 
 ---
 
-## 技术工具和资源
+## Technical Tools and Resources
 
-### 数据收集工具
-- **Python库**: requests, BeautifulSoup, Selenium, scrapy
+### Data Collection Tools
+- **Python Libraries**: requests, BeautifulSoup, Selenium, scrapy
 - **SEC API**: sec-api.io, sec-edgar-downloader
-- **财务数据API**: yfinance, Alpha Vantage, Financial Modeling Prep
-- **PDF处理**: PyPDF2, pdfplumber, tabula-py
+- **Financial Data APIs**: yfinance, Alpha Vantage, Financial Modeling Prep
+- **PDF Processing**: PyPDF2, pdfplumber, tabula-py
 
-### 开发工具
+### Development Tools
 - **IDE**: VS Code, PyCharm
-- **版本控制**: Git, GitHub
-- **环境管理**: conda, venv
-- **笔记本**: Jupyter Lab
+- **Version Control**: Git, GitHub
+- **Environment Management**: conda, venv
+- **Notebooks**: Jupyter Lab
 
-### NLP和ML工具
-- **LLM API**: OpenAI, Anthropic, Llama
-- **RAG框架**: LangChain, LlamaIndex
-- **向量数据库**: Pinecone, Weaviate, ChromaDB
-- **NLP库**: spaCy, NLTK, Hugging Face Transformers
-
----
-
-## 项目成功指标
-
-### 数据质量指标
-- 数据完整性: >95%的目标文档收集
-- 数据准确性: <5%的提取错误率
-- 数据时效性: 涵盖past3years
-
-### NLP性能指标
-- 实体提取准确率: >90%
-- CapEx事件识别召回率: >85%
-- 分类准确率: >90%
-
-### 应用性能指标
-- 查询响应时间: <5秒
-- 答案准确性: >85%(人工评估)
-- 来源引用率: 100%
-
-### 业务价值指标
-- 战略洞察质量(定性评估)
-- 决策支持有效性
-- 用户满意度
+### NLP and ML Tools
+- **LLM APIs**: OpenAI, Anthropic, Llama
+- **RAG Frameworks**: LangChain, LlamaIndex
+- **Vector Databases**: Pinecone, Weaviate, ChromaDB
+- **NLP Libraries**: spaCy, NLTK, Hugging Face Transformers
 
 ---
 
-## 风险和缓解策略
+## Project Success Metrics
 
-### 数据收集风险
-- **风险**: 数据不Available或Visit受限
-- **缓解**: 使用多个数据源,准备替代方案
+### Data Quality Metrics
+- Data completeness: >95% of target documents collected
+- Data accuracy: <5% extraction error rate
+- Data timeliness: covering past 3 years
 
-### 技术风险
-- **风险**: API限制或成本
-- **缓解**: 使用开源替代方案,优化API调用
+### NLP Performance Metrics
+- Entity extraction accuracy: >90%
+- CapEx event recognition recall: >85%
+- Classification accuracy: >90%
 
-### 时间风险
-- **风险**: 项目延期
-- **缓解**: 分阶段交付,优先核心功能
+### Application Performance Metrics
+- Query response time: <5 seconds
+- Answer accuracy: >85% (manual evaluation)
+- Source citation rate: 100%
 
-### 质量风险
-- **风险**: NLP准确性不足
-- **缓解**: 迭代改进,人工验证关键发现
+### Business Value Metrics
+- Quality of strategic insights (qualitative evaluation)
+- Effectiveness of decision support
+- User satisfaction
+
+---
+
+## Risks and Mitigation Strategies
+
+### Data Collection Risks
+- **Risk**: Data unavailable or visits restricted
+- **Mitigation**: Use multiple data sources, prepare alternatives
+
+### Technical Risks
+- **Risk**: API limitations or costs
+- **Mitigation**: Use open-source alternatives, optimize API calls
+
+### Time Risks
+- **Risk**: Project delays
+- **Mitigation**: Deliver in phases, prioritize core features
+
+### Quality Risks
+- **Risk**: Insufficient NLP accuracy
+- **Mitigation**: Iterative improvements, manual verification of key findings
 
 ---
 
 ## Next Steps
 
-### 立即行动 (今日)
-1. ✅ 创建GitHub仓库
-2. ✅ 建立项目filings夹结构
-3. ✅ 开始收集五家公司的基本信息
-4. ✅ 收集SECfilings链接
-5. ✅ DownloadRecent财报会议Transcript
+### Immediate Actions (Today)
+1. ✅ Create GitHub repository
+2. ✅ Establish project filings folder structure
+3. ✅ Start collecting basic information of five companies
+4. ✅ Collect SEC filings links
+5. ✅ Download Recent earnings call transcripts
 
-### 本周行动
-1. 完成所有原始数据收集
-2. 开始数据清理和标准化
-3. 设置开发环境
-4. 开始NLP管道原型开发
+### This Week's Actions
+1. Complete all raw data collection
+2. Start data cleaning and standardization
+3. Set up development environment
+4. Begin NLP pipeline prototype development
 
-### 本月行动
-1. 完成Phase 1和Phase 2
-2. 开始RAG系统开发
-3. 原型应用演示
+### This Month's Actions
+1. Complete Phase 1 and Phase 2
+2. Start RAG system development
+3. Prototype application demonstration
 
 ---
 
-## 联系和支持
-- 项目文档: GitHub Wiki
-- 问题追踪: GitHub Issues
-- 代码审查: Pull Requests
+## Contact and Support
+- Project Documentation: GitHub Wiki
+- Issue Tracking: GitHub Issues
+- Code Review: Pull Requests

@@ -1,17 +1,17 @@
 # Celestica Inc. (NYSE:CLS) Investor Relations Data Summary
 
 **Basic Information**
-*   **公司名称:** Celestica Inc.
+*   **Company Name:** Celestica Inc.
 *   **Stock Ticker:** NYSE:CLS
 *   **SEC CIK:** 0001030894
-*   **投资者关系主页:** https://corporate.celestica.com/
+*   **Investor Relations Homepage:** https://corporate.celestica.com/
 
 ---
 
-## 1. SEC 文件 (Form 20-F 代替 10-K)
+## 1. SEC Filings (Form 20-F instead of 10-K)
 
-### 10-K Annual Report (2021-2024 财years)
-| 财years | 提交Date | Link |
+### 10-K Annual Report (Fiscal Years 2021-2024)
+| Fiscal Year | Filing Date | Link |
 | :--- | :--- | :--- |
 | 2024 | 2025-03-03 | [Form 10-K (2024)](https://www.sec.gov/Archives/edgar/data/1030894/000103089425000014/cls-20241231.htm) |
 | 2023 | 2024-03-11 | [Form 20-F (2023)](https://corporate.celestica.com/sec-filings/sec-filing/20-f/0001030894-24-000009) |
@@ -20,17 +20,17 @@
 
 ---
 
-## 2. SEC 文件 (Form 10-Q / 6-K)
+## 2. SEC Filings (Form 10-Q / 6-K)
 
-Celestica Inc.作为外国私人发行人,通常提交 Form 6-K 报告Quarter财务信息,直到2024yearsQ1转为提交 Form 10-Q。
+Celestica Inc., as a foreign private issuer, generally submits Form 6-K to report quarterly financial information until Q1 2024 when it transitioned to submitting Form 10-Q.
 
-### 10-Q / 6-K Quarterly Report (past12quarters: 2023 Q1 - 2025 Q4)
-| Quarter | 提交Date | 报告类型 | Link |
+### 10-Q / 6-K Quarterly Report (past 12 quarters: 2023 Q1 - 2025 Q4)
+| Quarter | Filing Date | Report Type | Link |
 | :--- | :--- | :--- | :--- |
 | 2025 Q3 | 2025-10-27 | 10-Q | [Form 10-Q (Q3 2025)](https://corporate.celestica.com/sec-filings/sec-filing/10-q/0001030894-25-000053) |
 | 2025 Q2 | 2025-07-28 | 10-Q | [Form 10-Q (Q2 2025)](https://corporate.celestica.com/sec-filings/sec-filing/10-q/0001030894-25-000047) |
 | 2025 Q1 | 2025-04-24 | 10-Q | [Form 10-Q (Q1 2025)](https://www.sec.gov/Archives/edgar/data/1030894/000103089425000035/cls-20250331.htm) |
-| 2025 Q4 | N/A (未发布) | N/A | N/A |
+| 2025 Q4 | N/A (Not Released) | N/A | N/A |
 | 2025 Q3 | 2025-10-27 | 10-Q | [Form 10-Q (Q3 2025)](https://corporate.celestica.com/sec-filings/sec-filing/10-q/0001030894-25-000053) |
 | 2025 Q2 | 2025-07-28 | 10-Q | [Form 10-Q (Q2 2025)](https://corporate.celestica.com/sec-filings/sec-filing/10-q/0001030894-25-000047) |
 | 2025 Q1 | 2025-04-24 | 10-Q | [Form 10-Q (Q1 2025)](https://www.sec.gov/Archives/edgar/data/1030894/000103089425000035/cls-20250331.htm) |
@@ -47,11 +47,11 @@ Celestica Inc.作为外国私人发行人,通常提交 Form 6-K 报告Quarter财
 | 2022 Q2 | 2022-07-26 | 6-K | [Form 6-K (Q2 2022)](https://www.sec.gov/Archives/edgar/data/1030894/000103089422000019/0001030894-22-000019-index.htm) |
 | 2022 Q1 | 2022-04-27 | 6-K | [Form 6-K (Q1 2022)](https://www.sec.gov/Archives/edgar/data/1030894/000103089422000013/0001030894-22-000013-index.htm) |
 
-**sec_10q_count:** 15 (2022 Q1 - 2025 Q3, 2025 Q4未发布)
+**sec_10q_count:** 15 (2022 Q1 - 2025 Q3, 2025 Q4 not released)
 
 ---
 
-## 3. Earnings Calls记录 (past12quarters: 2023 Q1 - 2025 Q4)
+## 3. Earnings Calls Records (past 12 quarters: 2023 Q1 - 2025 Q4)
 
 | Quarter | Date | Link |
 | :--- | :--- | :--- |
@@ -72,16 +72,16 @@ Celestica Inc.作为外国私人发行人,通常提交 Form 6-K 报告Quarter财
 
 ---
 
-## 4. 投资者Presentations (past3years: 2023-2025)
+## 4. Investor Presentations (past 3 years: 2023-2025)
 
-| Date | 描述 | Link |
+| Date | Description | Link |
 | :--- | :--- | :--- |
 | 2025-10-28 | 2025 Investor and Analyst Day Presentation | [Presentation Link](https://corporate.celestica.com/events-and-presentations) |
 | 2024-10-23 | Virtual Investor Meeting | [Presentation Link](https://corporate.celestica.com/events-and-presentations) |
 | 2023-11-29 | Celestica 2023 Virtual Investor Meeting | [Presentation Link](https://corporate.celestica.com/events-and-presentations) |
 | 2022-03-24 | Virtual Investor Meeting | [Presentation Link](https://corporate.celestica.com/events-and-presentations) |
 
-**investor_presentations_count:** 4 (2023-2025years期间有3calls, 2022years有一calls, 算3calls)
+**investor_presentations_count:** 4 (3 calls during 2023-2025, 1 call in 2022, counted as 3 calls)
 
 ---
 
@@ -101,21 +101,21 @@ Celestica Inc.作为外国私人发行人,通常提交 Form 6-K 报告Quarter财
 
 ---
 
-## 6. 关键发现 (Key Findings)
+## 6. Key Findings
 
-Celestica Inc. (CLS) 正在经历重大转型,其增长重点已明确转向 **Connectivity and Cloud Solutions (CCS)** 部门,特别是 **AI/Data Center基础设施**。公司正积极推出如 SD6300 超高密度存储系统等产品,以满足超大规模客户对 AI 和机器学习工作负载的需求。这一战略转变使其股价在2025years大幅上涨,分析师认为其工程能力和在 AI Data Center生态系统中的核心地位构成了强大的 **“护城河”**。
+Celestica Inc. (CLS) is undergoing a major transformation, with its growth focus clearly shifting to the **Connectivity and Cloud Solutions (CCS)** segment, especially **AI/Data Center infrastructure**. The company is actively launching products such as the SD6300 ultra-high-density storage system to meet the needs of hyperscale customers for AI and machine learning workloads. This strategic shift has driven a significant increase in its stock price in 2025, with analysts viewing its engineering capabilities and core position in the AI Data Center ecosystem as a strong **“moat.”**
 
 ---
 
-**最终统计**
-*   **公司名称:** Celestica Inc.
+**Final Statistics**
+*   **Company Name:** Celestica Inc.
 *   **Stock Ticker:** NYSE:CLS
 *   **SEC CIK:** 0001030894
-*   **投资者关系主页:** https://corporate.celestica.com/
+*   **Investor Relations Homepage:** https://corporate.celestica.com/
 *   **earnings_calls_count:** 12
-*   **sec_10k_count:** 4 (包括2024years的10-K和2021-2023years的20-F)
+*   **sec_10k_count:** 4 (including 10-K for 2024 and 20-F for 2021-2023)
 *   **sec_10q_count:** 15 (2022 Q1 - 2025 Q3)
-*   **investor_presentations_count:** 3 (2023-2025years期间)
+*   **investor_presentations_count:** 3 (during 2023-2025)
 *   **news_releases_count:** 7
 *   **data_summary_file:** /home/ubuntu/data_summary_file.md
-*   **key_findings:** Celestica Inc. (CLS) 正在经历重大转型,其增长重点已明确转向 Connectivity and Cloud Solutions (CCS) 部门,特别是 AI/Data Center基础设施。公司正积极推出如 SD6300 超高密度存储系统等产品,以满足超大规模客户对 AI 和机器学习工作负载的需求。这一战略转变使其股价在2025years大幅上涨,分析师认为其工程能力和在 AI Data Center生态系统中的核心地位构成了强大的 “护城河”。
+*   **key_findings:** Celestica Inc. (CLS) is undergoing a major transformation, with its growth focus clearly shifting to the Connectivity and Cloud Solutions (CCS) segment, especially AI/Data Center infrastructure. The company is actively launching products such as the SD6300 ultra-high-density storage system to meet the needs of hyperscale customers for AI and machine learning workloads. This strategic shift has driven a significant increase in its stock price in 2025, with analysts viewing its engineering capabilities and core position in the AI Data Center ecosystem as a strong “moat.”
