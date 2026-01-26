@@ -7,16 +7,16 @@
 - **股票代码**: NYSE: JBL
 - **SEC CIK**: 0000898293
 - **总部**: 美国佛罗里达州圣彼得堡
-- **成立时间**: 1966年
+- **成立时间**: 1966years
 
 ### 在线资源
 - **官方网站**: https://www.jabil.com
 - **投资者关系**: https://investors.jabil.com
-- **SEC文件**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000898293
+- **SECfilings**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000898293
 - **财报会议**: https://investors.jabil.com/events-and-presentations
 
 ### 分析重点
-关注Jabil最近的运营扩张和数据中心战略,特别是其在AI基础设施领域的投资。
+关NoteJabilRecent运营扩张和数据中心战略,特别是其在AI基础设施领域的投资。
 
 ### 业务概况
 Jabil是全球领先的制造解决方案提供商,服务于多个行业包括医疗保健、汽车、云计算、5G网络和工业。
@@ -30,19 +30,19 @@ Jabil是全球领先的制造解决方案提供商,服务于多个行业包括�
 - **股票代码**: NYSE: CLS, TSX: CLS
 - **SEC CIK**: 0001000623
 - **总部**: 加拿大多伦多
-- **成立时间**: 1994年
+- **成立时间**: 1994years
 
 ### 在线资源
 - **官方网站**: https://www.celestica.com
 - **投资者关系**: https://www.celestica.com/investors
-- **SEC文件**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001000623
+- **SECfilings**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001000623
 - **财报会议**: https://www.celestica.com/investors/events-and-presentations
 
 ### 分析重点
 分析Celestica向"硬件平台解决方案"的战略转变,以及其与超大规模云服务提供商(Hyperscalers)的合作伙伴关系。
 
 ### 业务概况
-Celestica提供端到端产品生命周期解决方案,专注于通信、企业、航空航天和国防、工业、智慧能源和医疗保健市场。
+Celestica提供端到端产品生命周期解决方案,专Note于通信、企业、航空航天和国防、工业、智慧能源和医疗保健市场。
 
 ---
 
@@ -53,12 +53,12 @@ Celestica提供端到端产品生命周期解决方案,专注于通信、企业�
 - **股票代码**: NYSE: BHE
 - **SEC CIK**: 0000925036
 - **总部**: 美国亚利桑那州坦佩
-- **成立时间**: 1979年
+- **成立时间**: 1979years
 
 ### 在线资源
 - **官方网站**: https://www.bench.com
 - **投资者关系**: https://ir.bench.com
-- **SEC文件**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000925036
+- **SECfilings**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000925036
 - **财报会议**: https://ir.bench.com/events-and-presentations
 
 ### 分析重点
@@ -76,12 +76,12 @@ Benchmark提供综合性电子制造服务(EMS),包括工程设计、技术解�
 - **股票代码**: NASDAQ: SANM
 - **SEC CIK**: 0001068686
 - **总部**: 美国加利福尼亚州圣何塞
-- **成立时间**: 1980年
+- **成立时间**: 1980years
 
 ### 在线资源
 - **官方网站**: https://www.sanmina.com
 - **投资者关系**: https://investor.sanmina.com
-- **SEC文件**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001068686
+- **SECfilings**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001068686
 - **财报会议**: https://investor.sanmina.com/events-and-presentations
 
 ### 分析重点
@@ -98,13 +98,13 @@ Sanmina是集成制造解决方案、组件、产品和维修、物流和售后�
 - **公司全称**: Flex Ltd. (原Flextronics International Ltd.)
 - **股票代码**: NASDAQ: FLEX
 - **SEC CIK**: 0000866374
-- **总部**: 美国德克萨斯州奥斯汀(注册地:新加坡)
-- **成立时间**: 1969年
+- **总部**: 美国德克萨斯州奥斯汀(Note册地:新加坡)
+- **成立时间**: 1969years
 
 ### 在线资源
 - **官方网站**: https://flex.com
 - **投资者关系**: https://investors.flex.com
-- **SEC文件**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866374
+- **SECfilings**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866374
 - **财报会议**: https://investors.flex.com/events-and-presentations
 
 ### 分析重点
@@ -115,53 +115,53 @@ Flex是全球领先的多元化制造服务和供应链解决方案提供商,服
 
 ---
 
-## 数据收集状态跟踪
+## Data Collection Status跟踪
 
 ### Jabil Inc. (JBL)
-- [ ] 财报会议记录 (0/12)
-- [ ] 10-K年报 (0/3)
+- [ ] 财报会议Transcript (0/12)
+- [ ] 10-Kyears报 (0/3)
 - [ ] 10-Q季报 (0/12)
-- [ ] 8-K文件
+- [ ] 8-Kfilings
 - [ ] 投资者演示
 - [ ] 新闻公告
 
 ### Celestica Inc. (CLS)
-- [ ] 财报会议记录 (0/12)
-- [ ] 10-K年报 (0/3)
+- [ ] 财报会议Transcript (0/12)
+- [ ] 10-Kyears报 (0/3)
 - [ ] 10-Q季报 (0/12)
-- [ ] 8-K文件
+- [ ] 8-Kfilings
 - [ ] 投资者演示
 - [ ] 新闻公告
 
 ### Benchmark Electronics (BHE)
-- [ ] 财报会议记录 (0/12)
-- [ ] 10-K年报 (0/3)
+- [ ] 财报会议Transcript (0/12)
+- [ ] 10-Kyears报 (0/3)
 - [ ] 10-Q季报 (0/12)
-- [ ] 8-K文件
+- [ ] 8-Kfilings
 - [ ] 投资者演示
 - [ ] 新闻公告
 
 ### Sanmina Corporation (SANM)
-- [ ] 财报会议记录 (0/12)
-- [ ] 10-K年报 (0/3)
+- [ ] 财报会议Transcript (0/12)
+- [ ] 10-Kyears报 (0/3)
 - [ ] 10-Q季报 (0/12)
-- [ ] 8-K文件
+- [ ] 8-Kfilings
 - [ ] 投资者演示
 - [ ] 新闻公告
 
 ### Flex Ltd. (FLEX)
-- [ ] 财报会议记录 (0/12)
-- [ ] 10-K年报 (0/3)
+- [ ] 财报会议Transcript (0/12)
+- [ ] 10-Kyears报 (0/3)
 - [ ] 10-Q季报 (0/12)
-- [ ] 8-K文件
+- [ ] 8-Kfilings
 - [ ] 投资者演示
 - [ ] 新闻公告
 
 ---
 
-## 关键搜索词
+## 关键Search词
 
-### AI/数据中心相关
+### AI/数据中心Related
 - AI infrastructure
 - Data center
 - Liquid cooling
@@ -173,7 +173,7 @@ Flex是全球领先的多元化制造服务和供应链解决方案提供商,服
 - Generative AI
 - AI training / inference
 
-### 传统业务相关
+### 传统业务Related
 - Medical devices
 - Automotive electronics
 - Industrial automation
@@ -181,7 +181,7 @@ Flex是全球领先的多元化制造服务和供应链解决方案提供商,服
 - Consumer electronics
 - 5G / Telecommunications
 
-### CapEx相关
+### CapExRelated
 - Capital expenditure
 - CapEx
 - Facility expansion

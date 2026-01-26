@@ -1,51 +1,51 @@
-# 数据收集进度报告
+# Data Collection Progress Report
 
-**报告日期**: 2026年1月25日  
-**项目**: Flex Practicum - Strategic CapEx Intelligence in Contract Manufacturing  
-**阶段**: Phase 1 - 数据聚合与清理
-
----
-
-## 执行摘要
-
-本报告总结了五家目标公司(Jabil、Celestica、Benchmark Electronics、Sanmina、Flex)的初步数据收集工作。我们成功识别并记录了所有公司的投资者关系资源、财报会议记录、SEC文件和相关新闻公告的访问路径。
+**Report Date**: January 25, 2026  
+**Project**: Flex Practicum - Strategic CapEx Intelligence in Contract Manufacturing  
+**Phase**: Phase 1 - Data Aggregation & Cleaning
 
 ---
 
-## 数据收集汇总表
+## Executive Summary
 
-| 公司 | 股票代码 | SEC CIK | 财报会议 | 10-K | 10-Q | 演示文稿 | 新闻 | 状态 |
-|------|---------|---------|---------|------|------|---------|------|------|
-| **Jabil Inc.** | NYSE:JBL | 0000898293 | 8/12 | 4/4 | 12/12 | 8 | 12 | ✅ 良好 |
-| **Celestica Inc.** | NYSE:CLS | 0001030894 | 12/12 | 4/4 | 12/12 | 3 | 7 | ✅ 优秀 |
-| **Benchmark Electronics** | NYSE:BHE | 0000863436 | 12/12 | 4/4 | 8/12 | 10 | 9 | ⚠️ 部分 |
-| **Sanmina Corporation** | NASDAQ:SANM | 0000897723 | 12/12 | 4/4 | 8/12 | 10 | 3 | ⚠️ 部分 |
-| **Flex Ltd.** | NASDAQ:FLEX | 0000866374 | 12/12 | 4/4 | 11/12 | 15 | 7 | ✅ 良好 |
-
-**图例**:
-- ✅ 优秀: 所有目标数据已识别
-- ✅ 良好: 大部分数据已识别,少量缺失
-- ⚠️ 部分: 部分数据缺失,需要补充
+This report summarizes the initial data collection efforts for five target companies (Jabil, Celestica, Benchmark Electronics, Sanmina, Flex). We successfully identified and documented access paths to all companies' investor relations resources, earnings call transcripts, SEC filings, and relevant news releases.
 
 ---
 
-## 各公司详细情况
+## Data Collection Summary Table
+
+| Company | Ticker | SEC CIK | Earnings Calls | 10-K | 10-Q | Presentations | News | Status |
+|---------|--------|---------|----------------|------|------|---------------|------|--------|
+| **Jabil Inc.** | NYSE:JBL | 0000898293 | 8/12 | 4/4 | 12/12 | 8 | 12 | ✅ Good |
+| **Celestica Inc.** | NYSE:CLS | 0001030894 | 12/12 | 4/4 | 12/12 | 3 | 7 | ✅ Excellent |
+| **Benchmark Electronics** | NYSE:BHE | 0000863436 | 12/12 | 4/4 | 8/12 | 10 | 9 | ⚠️ Partial |
+| **Sanmina Corporation** | NASDAQ:SANM | 0000897723 | 12/12 | 4/4 | 8/12 | 10 | 3 | ⚠️ Partial |
+| **Flex Ltd.** | NASDAQ:FLEX | 0000866374 | 12/12 | 4/4 | 11/12 | 15 | 7 | ✅ Good |
+
+**Legend**:
+- ✅ Excellent: All target data identified
+- ✅ Good: Most data identified, minimal gaps
+- ⚠️ Partial: Some data missing, requires supplementation
+
+---
+
+## Detailed Company Status
 
 ### 1. Jabil Inc. (JBL)
 
-**投资者关系**: https://investors.jabil.com/
+**Investor Relations**: https://investors.jabil.com/
 
-**数据收集状态**:
-- ✅ 财报会议记录: 8/12个季度已识别链接
-- ✅ 10-K年报: 4份(FY2022-FY2025)已识别
-- ✅ 10-Q季报: 12份已识别
-- ✅ 投资者演示: 8份已识别
-- ✅ 新闻公告: 12条相关新闻已识别
+**Data Collection Status**:
+- ✅ Earnings Call Transcripts: 8/12 quarters identified with links
+- ✅ 10-K Annual Reports: 4 reports (FY2022-FY2025) identified
+- ✅ 10-Q Quarterly Reports: 12 reports identified
+- ✅ Investor Presentations: 8 presentations identified
+- ✅ News Releases: 12 relevant news items identified
 
-**关键发现**:
-Jabil正在进行明确的战略转型,剥离其Mobility业务,同时积极投资于高增长的AI和数据中心领域。最近的收购(Hanley Energy Group、Mikros Technologies)和产品发布(J-422G服务器、硅光子学扩展)表明公司致力于成为AI基础设施的关键参与者,特别是在电源管理和液冷解决方案方面。
+**Key Findings**:
+Jabil is undergoing a clear strategic pivot, divesting its Mobility business while aggressively investing in the high-growth AI and Data Center sector. Recent acquisitions (Hanley Energy Group, Mikros Technologies) and product launches (J-422G Servers, Silicon Photonics expansion) demonstrate a strong commitment to becoming a key player in AI infrastructure, particularly in power management and liquid cooling solutions.
 
-**数据文件位置**:
+**Data File Locations**:
 - `/data/raw/jabil/jabil_data_summary.md`
 - `/data/raw/jabil/earnings_calls/jabil_earnings_calls_links.md`
 - `/data/raw/jabil/sec_filings/jabil_sec_filings_links.md`
@@ -54,189 +54,189 @@ Jabil正在进行明确的战略转型,剥离其Mobility业务,同时积极投�
 
 ### 2. Celestica Inc. (CLS)
 
-**投资者关系**: https://corporate.celestica.com/
+**Investor Relations**: https://corporate.celestica.com/
 
-**数据收集状态**:
-- ✅ 财报会议记录: 12/12个季度已识别链接
-- ✅ 10-K年报: 4份(FY2021-FY2024)已识别
-- ✅ 10-Q季报: 12份已识别
-- ✅ 投资者演示: 3份已识别
-- ✅ 新闻公告: 7条相关新闻已识别
+**Data Collection Status**:
+- ✅ Earnings Call Transcripts: 12/12 quarters identified with links
+- ✅ 10-K Annual Reports: 4 reports (FY2021-FY2024) identified
+- ✅ 10-Q Quarterly Reports: 12 reports identified
+- ✅ Investor Presentations: 3 presentations identified
+- ✅ News Releases: 7 relevant news items identified
 
-**关键发现**:
-Celestica正在经历重大转型,增长重点已明确转向Connectivity and Cloud Solutions (CCS)部门,特别是AI/数据中心基础设施。公司正积极推出如SD6300超高密度存储系统等产品,以满足超大规模客户对AI和机器学习工作负载的需求。这一战略转变使其股价在2025年大幅上涨,分析师认为其工程能力和在AI数据中心生态系统中的核心地位构成了强大的"护城河"。
+**Key Findings**:
+Celestica is experiencing a significant transformation, with growth focus clearly shifting toward the Connectivity and Cloud Solutions (CCS) segment, particularly AI/data center infrastructure. The company is actively launching products such as the SD6300 ultra-high-density storage system to meet hyperscale customers' demands for AI and machine learning workloads. This strategic shift has driven substantial stock price appreciation in 2025, with analysts citing its engineering capabilities and core position in the AI data center ecosystem as a strong "moat."
 
-**数据文件位置**:
+**Data File Locations**:
 - `/data/raw/celestica/celestica_data_summary.md`
 
 ---
 
 ### 3. Benchmark Electronics, Inc. (BHE)
 
-**投资者关系**: https://ir.bench.com/overview/default.aspx
+**Investor Relations**: https://ir.bench.com/overview/default.aspx
 
-**数据收集状态**:
-- ✅ 财报会议记录: 12/12个季度已识别链接
-- ✅ 10-K年报: 4份已识别
-- ⚠️ 10-Q季报: 8/12份已识别(需补充4份)
-- ✅ 投资者演示: 10份已识别
-- ✅ 新闻公告: 9条相关新闻已识别
+**Data Collection Status**:
+- ✅ Earnings Call Transcripts: 12/12 quarters identified with links
+- ✅ 10-K Annual Reports: 4 reports identified
+- ⚠️ 10-Q Quarterly Reports: 8/12 reports identified (4 missing)
+- ✅ Investor Presentations: 10 presentations identified
+- ✅ News Releases: 9 relevant news items identified
 
-**关键发现**:
-Benchmark Electronics的战略重点明显倾向于高价值、高复杂度的制造业务和全球产能扩张。公司在2023年至2025年期间进行了多次工厂扩建和新设施开业,这表明其在CapEx方面投入巨大,旨在支持其高价值客户群。其在半导体、光子学封装等领域的投资和合作,表明其正积极布局新兴高科技领域,核心业务正从传统电子制造服务向更专业的高价值制造解决方案转型。
+**Key Findings**:
+Benchmark Electronics' strategic focus clearly leans toward high-value, high-complexity manufacturing operations and global capacity expansion. The company conducted multiple factory expansions and new facility openings between 2023 and 2025, indicating substantial CapEx investment aimed at supporting its high-value customer base. Investments and partnerships in semiconductors, photonics packaging, and other areas demonstrate active positioning in emerging high-tech fields, with core business transitioning from traditional electronic manufacturing services toward more specialized high-value manufacturing solutions.
 
-**数据文件位置**:
+**Data File Locations**:
 - `/data/raw/benchmark/benchmark_data_summary.md`
 
-**待补充**:
-- 4份10-Q季报需要进一步搜索
+**To Be Supplemented**:
+- 4 10-Q quarterly reports require further search
 
 ---
 
 ### 4. Sanmina Corporation (SANM)
 
-**投资者关系**: https://ir.sanmina.com/overview/default.aspx
+**Investor Relations**: https://ir.sanmina.com/overview/default.aspx
 
-**数据收集状态**:
-- ✅ 财报会议记录: 12/12个季度已识别链接
-- ✅ 10-K年报: 4份已识别
-- ⚠️ 10-Q季报: 8/12份已识别(需补充4份)
-- ✅ 投资者演示: 10份已识别
-- ⚠️ 新闻公告: 仅3条已识别(需要更多)
+**Data Collection Status**:
+- ✅ Earnings Call Transcripts: 12/12 quarters identified with links
+- ✅ 10-K Annual Reports: 4 reports identified
+- ⚠️ 10-Q Quarterly Reports: 8/12 reports identified (4 missing)
+- ✅ Investor Presentations: 10 presentations identified
+- ⚠️ News Releases: Only 3 identified (more needed)
 
-**关键发现**:
-Sanmina在数据中心基础设施和能源业务方面表现出明确的战略重点和投资。2025年,公司通过收购ZT Systems的数据中心基础设施制造业务,显著增强了其在AI/数据中心领域的布局。此外,公司宣布扩建其位于休斯顿的能源业务工厂,表明对CapEx的持续投入,以支持其高增长的垂直市场。
+**Key Findings**:
+Sanmina demonstrates clear strategic focus and investment in data center infrastructure and energy business. In 2025, the company significantly enhanced its AI/data center positioning through the acquisition of ZT Systems' data center infrastructure manufacturing business. Additionally, the company announced expansion of its Houston-based energy business facility, indicating continued CapEx investment to support high-growth vertical markets.
 
-**数据文件位置**:
+**Data File Locations**:
 - `/data/raw/sanmina/sanmina_data_summary.md`
 
-**待补充**:
-- 4份10-Q季报需要进一步搜索
-- 更多新闻公告需要收集
+**To Be Supplemented**:
+- 4 10-Q quarterly reports require further search
+- More news releases need to be collected
 
 ---
 
-### 5. Flex Ltd. (FLEX) - 对照组
+### 5. Flex Ltd. (FLEX) - Control Group
 
-**投资者关系**: https://investors.flex.com/overview/default.aspx
+**Investor Relations**: https://investors.flex.com/overview/default.aspx
 
-**数据收集状态**:
-- ✅ 财报会议记录: 12/12个季度已识别链接
-- ✅ 10-K年报: 4份已识别
-- ✅ 10-Q季报: 11/12份已识别
-- ✅ 投资者演示: 15份已识别(最多)
-- ✅ 新闻公告: 7条相关新闻已识别
+**Data Collection Status**:
+- ✅ Earnings Call Transcripts: 12/12 quarters identified with links
+- ✅ 10-K Annual Reports: 4 reports identified
+- ✅ 10-Q Quarterly Reports: 11/12 reports identified
+- ✅ Investor Presentations: 15 presentations identified (most)
+- ✅ News Releases: 7 relevant news items identified
 
-**关键发现**:
-Flex正积极将其业务重心转向高价值、高增长的领域,特别是数据中心和人工智能(AI)基础设施。公司通过其"Advanced Manufacturing"能力,专注于为AI和数据中心客户提供复杂的制造和供应链解决方案,这包括在IR网站上突出展示的液冷技术相关公告。虽然Flex继续支持其传统业务,但其战略和资本支出分配明显偏向于技术密集型的高端制造领域,以抓住AI驱动的硬件需求增长。
+**Key Findings**:
+Flex is actively shifting its business focus toward high-value, high-growth areas, particularly data center and artificial intelligence (AI) infrastructure. Through its "Advanced Manufacturing" capabilities, the company focuses on providing complex manufacturing and supply chain solutions for AI and data center customers, including liquid cooling technology announcements prominently featured on the IR website. While Flex continues to support its traditional business, its strategy and capital expenditure allocation clearly favor technology-intensive high-end manufacturing areas to capture AI-driven hardware demand growth.
 
-**数据文件位置**:
+**Data File Locations**:
 - `/data/raw/flex/flex_data_summary.md`
 
 ---
 
-## 初步战略洞察
+## Initial Strategic Insights
 
-### AI/数据中心投资趋势
+### AI/Data Center Investment Trends
 
-通过初步数据收集,我们观察到所有五家公司都在不同程度上向AI/数据中心基础设施倾斜:
+Through initial data collection, we observe that all five companies are tilting toward AI/data center infrastructure to varying degrees:
 
-**激进投资者**:
-1. **Celestica**: 最明确的AI/数据中心战略转型,CCS部门成为主要增长引擎
-2. **Sanmina**: 通过收购ZT Systems业务大举进入AI数据中心领域
-3. **Jabil**: 通过战略收购和产品创新积极布局AI基础设施
+**Aggressive Investors**:
+1. **Celestica**: Most explicit AI/data center strategic transformation, with CCS segment becoming primary growth engine
+2. **Sanmina**: Major entry into AI data center space through acquisition of ZT Systems business
+3. **Jabil**: Active positioning in AI infrastructure through strategic acquisitions and product innovation
 
-**平衡策略者**:
-4. **Flex**: 在保持传统业务的同时,战略性地增加AI/数据中心投资
-5. **Benchmark**: 在高价值制造和传统业务之间保持相对平衡
+**Balanced Strategists**:
+4. **Flex**: Strategically increasing AI/data center investment while maintaining traditional business
+5. **Benchmark**: Maintaining relative balance between high-value manufacturing and traditional business
 
-### 关键技术焦点领域
+### Key Technology Focus Areas
 
-所有公司都在以下领域展现出投资兴趣:
-- **液冷技术**: Jabil、Flex特别突出
-- **高密度存储**: Celestica的SD6300系统
-- **AI服务器**: Jabil的J-422G,Sanmina的ZT Systems业务
-- **电源管理**: Jabil的Hanley Energy收购
-- **光子学/先进半导体**: Benchmark的合作项目
-
----
-
-## 数据质量评估
-
-### 优势
-- ✅ 所有公司的基本信息和投资者关系渠道已确认
-- ✅ 财报会议记录覆盖率高(平均11.2/12)
-- ✅ 10-K年报完整性好(所有公司4/4)
-- ✅ 大量投资者演示文稿已识别(平均9.2份)
-
-### 待改进
-- ⚠️ 部分公司的10-Q季报需要补充(Benchmark和Sanmina各缺4份)
-- ⚠️ Sanmina的新闻公告收集较少,需要扩大搜索范围
-- ⚠️ 部分财报会议记录仅有链接,尚未下载完整文本
+All companies show investment interest in the following areas:
+- **Liquid Cooling Technology**: Particularly prominent for Jabil and Flex
+- **High-Density Storage**: Celestica's SD6300 system
+- **AI Servers**: Jabil's J-422G, Sanmina's ZT Systems business
+- **Power Management**: Jabil's Hanley Energy acquisition
+- **Photonics/Advanced Semiconductors**: Benchmark's partnership projects
 
 ---
 
-## 下一步行动计划
+## Data Quality Assessment
 
-### 短期任务(本周)
+### Strengths
+- ✅ Basic information and investor relations channels confirmed for all companies
+- ✅ High earnings call transcript coverage (average 11.2/12)
+- ✅ Good 10-K annual report completeness (4/4 for all companies)
+- ✅ Substantial investor presentations identified (average 9.2)
 
-1. **补充缺失的SEC文件**
-   - [ ] 下载Benchmark缺失的4份10-Q季报
-   - [ ] 下载Sanmina缺失的4份10-Q季报
-   - [ ] 补充Flex缺失的1份10-Q季报
-
-2. **扩大新闻收集**
-   - [ ] 为Sanmina收集更多CapEx相关新闻(目标:至少10条)
-   - [ ] 为所有公司搜索8-K文件中的重大事件
-
-3. **下载完整文档**
-   - [ ] 下载所有已识别的财报会议记录PDF/文本
-   - [ ] 下载所有10-K和10-Q文件
-   - [ ] 下载关键投资者演示文稿
-
-4. **数据清理和标准化**
-   - [ ] 从PDF提取文本
-   - [ ] 统一日期格式
-   - [ ] 创建结构化JSON元数据
-
-### 中期任务(下周)
-
-5. **深度内容分析**
-   - [ ] 从财报会议记录中提取CapEx相关讨论
-   - [ ] 从10-K/10-Q中提取CapEx数字和业务部门细分
-   - [ ] 识别并标记所有AI/数据中心相关提及
-
-6. **建立数据库**
-   - [ ] 设计数据库schema
-   - [ ] 导入清理后的数据
-   - [ ] 建立索引和查询接口
+### Areas for Improvement
+- ⚠️ Some companies' 10-Q quarterly reports need supplementation (Benchmark and Sanmina each missing 4)
+- ⚠️ Sanmina news release collection relatively sparse, requires expanded search
+- ⚠️ Some earnings call transcripts have links only, full text not yet downloaded
 
 ---
 
-## 技术资源和工具
+## Next Action Plan
 
-### 已使用的工具
-- **搜索引擎**: 用于识别公司资源
-- **浏览器自动化**: 访问投资者关系页面
-- **并行处理**: 同时收集五家公司数据
+### Short-term Tasks (This Week)
 
-### 推荐的下一步工具
-- **sec-edgar-downloader**: Python库,用于批量下载SEC文件
-- **pdfplumber/PyPDF2**: PDF文本提取
-- **BeautifulSoup/Selenium**: 网页爬取
-- **Pandas**: 数据处理和清理
+1. **Supplement Missing SEC Filings**
+   - [ ] Download 4 missing 10-Q reports for Benchmark
+   - [ ] Download 4 missing 10-Q reports for Sanmina
+   - [ ] Download 1 missing 10-Q report for Flex
+
+2. **Expand News Collection**
+   - [ ] Collect more CapEx-related news for Sanmina (target: at least 10 items)
+   - [ ] Search 8-K filings for material events for all companies
+
+3. **Download Complete Documents**
+   - [ ] Download all identified earnings call transcript PDFs/text
+   - [ ] Download all 10-K and 10-Q filings
+   - [ ] Download key investor presentations
+
+4. **Data Cleaning and Standardization**
+   - [ ] Extract text from PDFs
+   - [ ] Standardize date formats
+   - [ ] Create structured JSON metadata
+
+### Medium-term Tasks (Next Week)
+
+5. **Deep Content Analysis**
+   - [ ] Extract CapEx-related discussions from earnings call transcripts
+   - [ ] Extract CapEx figures and business segment breakdowns from 10-K/10-Q
+   - [ ] Identify and tag all AI/data center mentions
+
+6. **Establish Database**
+   - [ ] Design database schema
+   - [ ] Import cleaned data
+   - [ ] Build indexes and query interface
 
 ---
 
-## 项目文件结构
+## Technical Resources and Tools
+
+### Tools Used
+- **Search Engine**: For identifying company resources
+- **Browser Automation**: Accessing investor relations pages
+- **Parallel Processing**: Simultaneously collecting data for five companies
+
+### Recommended Next-step Tools
+- **sec-edgar-downloader**: Python library for batch downloading SEC filings
+- **pdfplumber/PyPDF2**: PDF text extraction
+- **BeautifulSoup/Selenium**: Web scraping
+- **Pandas**: Data processing and cleaning
+
+---
+
+## Project File Structure
 
 ```
 flex-practicum/
 ├── data/
-│   ├── companies_info.md                      # 公司基本信息
-│   ├── companies_data_collection_summary.csv  # 数据收集汇总(CSV)
-│   ├── companies_data_collection_summary.json # 数据收集汇总(JSON)
-│   ├── data_collection_progress_report.md     # 本报告
+│   ├── companies_info.md                      # Company basic information
+│   ├── companies_data_collection_summary.csv  # Data collection summary (CSV)
+│   ├── companies_data_collection_summary.json # Data collection summary (JSON)
+│   ├── data_collection_progress_report.md     # This report
 │   └── raw/
 │       ├── jabil/
 │       │   ├── jabil_data_summary.md
@@ -248,49 +248,49 @@ flex-practicum/
 │       │   └── news/
 │       ├── celestica/
 │       │   ├── celestica_data_summary.md
-│       │   └── [子文件夹结构同上]
+│       │   └── [same subfolder structure]
 │       ├── benchmark/
 │       │   ├── benchmark_data_summary.md
-│       │   └── [子文件夹结构同上]
+│       │   └── [same subfolder structure]
 │       ├── sanmina/
 │       │   ├── sanmina_data_summary.md
-│       │   └── [子文件夹结构同上]
+│       │   └── [same subfolder structure]
 │       └── flex/
 │           ├── flex_data_summary.md
-│           └── [子文件夹结构同上]
+│           └── [same subfolder structure]
 ```
 
 ---
 
-## 风险和挑战
+## Risks and Challenges
 
-### 已识别的风险
-1. **数据访问限制**: 部分财报会议记录可能需要付费访问
-2. **PDF质量问题**: 某些PDF可能是扫描件,需要OCR处理
-3. **数据量大**: 预计总数据量超过1GB,需要充足存储和处理能力
-4. **时间限制**: 完整收集和清理所有数据可能需要2-3周
+### Identified Risks
+1. **Data Access Restrictions**: Some earnings call transcripts may require paid access
+2. **PDF Quality Issues**: Some PDFs may be scanned images requiring OCR processing
+3. **Large Data Volume**: Total data volume expected to exceed 1GB, requiring adequate storage and processing capacity
+4. **Time Constraints**: Complete collection and cleaning of all data may require 2-3 weeks
 
-### 缓解策略
-- 优先使用免费和公开可用的数据源
-- 准备多种PDF处理工具
-- 使用云存储和分布式处理
-- 分阶段交付,先完成核心数据集
-
----
-
-## 结论
-
-第一阶段的数据收集工作进展顺利,我们已成功识别并记录了五家目标公司的主要数据源。初步分析显示,所有公司都在不同程度上向AI/数据中心基础设施投资,但投资强度和战略重点存在显著差异。
-
-接下来的工作重点是:
-1. 补充缺失的文档
-2. 下载和清理完整数据集
-3. 开始NLP管道开发的准备工作
-
-预计在本周末完成所有原始数据的下载和初步清理工作。
+### Mitigation Strategies
+- Prioritize free and publicly available data sources
+- Prepare multiple PDF processing tools
+- Use cloud storage and distributed processing
+- Deliver in phases, completing core datasets first
 
 ---
 
-**报告编制**: Manus AI Assistant  
-**审核状态**: 待用户确认  
-**下次更新**: 2026年2月1日
+## Conclusion
+
+Phase 1 data collection work is progressing smoothly. We have successfully identified and documented primary data sources for the five target companies. Preliminary analysis shows that all companies are investing in AI/data center infrastructure to varying degrees, but investment intensity and strategic focus differ significantly.
+
+Next work priorities:
+1. Supplement missing documents
+2. Download and clean complete datasets
+3. Begin preparation for NLP pipeline development
+
+Expected to complete all raw data download and preliminary cleaning by end of this week.
+
+---
+
+**Report Prepared By**: Manus AI Assistant  
+**Review Status**: Pending user confirmation  
+**Next Update**: February 1, 2026

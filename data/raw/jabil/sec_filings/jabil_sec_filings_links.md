@@ -1,165 +1,165 @@
-# Jabil Inc. SEC文件链接
+# Jabil Inc. SEC Filings Links
 
-## 公司基本信息
+## Company Basic Information
 - **CIK**: 0000898293
 - **EIN**: 381886260
-- **注册州**: Delaware (DE)
-- **财年结束**: 08/31
-- **SEC EDGAR页面**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000898293
+- **State of Incorporation**: Delaware (DE)
+- **Fiscal Year End**: 08/31
+- **SEC EDGAR Page**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000898293
 
-## 10-K 年度报告
+## 10-K Annual Reports
 
-### FY2025 (截至2025年8月31日)
-- **文件日期**: 预计2025年10月
-- **直接链接**: https://www.sec.gov/Archives/edgar/data/898293/000162828025045293/jbl-20250831.htm
-- **状态**: 已提交
+### FY2025 (As of2025years8月31日)
+- **Filing Date**: Expected2025years10月
+- **Direct Link**: https://www.sec.gov/Archives/edgar/data/898293/000162828025045293/jbl-20250831.htm
+- **Status**: Filed
 
-### FY2024 (截至2024年8月31日)
-- **文件日期**: 2024年10月28日
-- **直接链接**: https://www.sec.gov/Archives/edgar/data/898293/000162828024043960/jbl-20240831.htm
-- **HTML格式**: 可用
-- **PDF下载**: 可通过SEC网站下载
+### FY2024 (As of2024years8月31日)
+- **Filing Date**: 2024years10月28日
+- **Direct Link**: https://www.sec.gov/Archives/edgar/data/898293/000162828024043960/jbl-20240831.htm
+- **HTML Format**: Available
+- **PDF Download**: Can be downloaded from SEC website
 
-### FY2023 (截至2023年8月31日)
-- **文件日期**: 2023年10月20日
-- **直接链接**: 需要从SEC EDGAR搜索
-- **大小**: 约1.1 MB
+### FY2023 (As of2023years8月31日)
+- **Filing Date**: 2023years10月20日
+- **Direct Link**: Need to search from SEC EDGAR
+- **Size**: 约1.1 MB
 
-### FY2022 (截至2022年8月31日)
-- **文件日期**: 2022年10月
-- **直接链接**: https://www.sec.gov/Archives/edgar/data/898293/000119312522268383/d389587d10k.htm
-- **HTML格式**: 可用
+### FY2022 (As of2022years8月31日)
+- **Filing Date**: 2022years10月
+- **Direct Link**: https://www.sec.gov/Archives/edgar/data/898293/000119312522268383/d389587d10k.htm
+- **HTML Format**: Available
 
-### FY2021 (截至2021年8月31日)
-- **文件日期**: 2021年10月
-- **直接链接**: 需要从SEC EDGAR搜索
+### FY2021 (As of2021years8月31日)
+- **Filing Date**: 2021years10月
+- **Direct Link**: Need to search from SEC EDGAR
 
-## 10-Q 季度报告
+## 10-Q Quarterly Reports
 
-### Q1 FY2026 (截至2025年11月30日)
-- **文件日期**: 2026年1月9日
-- **直接链接**: 需要从最新文件中查找
-- **大小**: 约9.71 MB
+### Q1 FY2026 (As of2025years11月30日)
+- **Filing Date**: 2026years1月9日
+- **Direct Link**: 需要从最新文件中查找
+- **Size**: 约9.71 MB
 
-### Q4 FY2025 (截至2025年8月31日)
-- **注**: Q4通常包含在10-K年报中
+### Q4 FY2025 (As of2025years8月31日)
+- **注**: Q4Usually included in 10-K annual report
 
-### Q3 FY2025 (截至2025年5月31日)
-- **文件日期**: 2025年7月
-- **直接链接**: 需要从SEC EDGAR搜索
+### Q3 FY2025 (As of2025years5月31日)
+- **Filing Date**: 2025years7月
+- **Direct Link**: Need to search from SEC EDGAR
 
-### Q2 FY2025 (截至2025年2月28日)
-- **文件日期**: 2025年4月
-- **直接链接**: 需要从SEC EDGAR搜索
+### Q2 FY2025 (As of2025years2月28日)
+- **Filing Date**: 2025years4月
+- **Direct Link**: Need to search from SEC EDGAR
 
-### Q1 FY2025 (截至2024年11月30日)
-- **文件日期**: 2025年1月
-- **直接链接**: 需要从SEC EDGAR搜索
+### Q1 FY2025 (As of2024years11月30日)
+- **Filing Date**: 2025years1月
+- **Direct Link**: Need to search from SEC EDGAR
 
-### Q3 FY2024 (截至2024年5月31日)
-- **文件日期**: 2024年7月
-- **直接链接**: https://www.sec.gov/Archives/edgar/data/898293/000162828024031429/
-- **索引页面**: 可用
+### Q3 FY2024 (As of2024years5月31日)
+- **Filing Date**: 2024years7月
+- **Direct Link**: https://www.sec.gov/Archives/edgar/data/898293/000162828024031429/
+- **Index page**: Available
 
-### Q2 FY2024 (截至2024年2月29日)
-- **文件日期**: 2024年4月
-- **直接链接**: 需要从SEC EDGAR搜索
+### Q2 FY2024 (As of2024years2月29日)
+- **Filing Date**: 2024years4月
+- **Direct Link**: Need to search from SEC EDGAR
 
-### Q1 FY2024 (截至2023年11月30日)
-- **文件日期**: 2024年1月
-- **直接链接**: 需要从SEC EDGAR搜索
+### Q1 FY2024 (As of2023years11月30日)
+- **Filing Date**: 2024years1月
+- **Direct Link**: Need to search from SEC EDGAR
 
-### Q3 FY2023 (截至2023年5月31日)
-- **文件日期**: 2023年7月
-- **直接链接**: 需要从SEC EDGAR搜索
+### Q3 FY2023 (As of2023years5月31日)
+- **Filing Date**: 2023years7月
+- **Direct Link**: Need to search from SEC EDGAR
 
-### Q2 FY2023 (截至2023年2月28日)
-- **文件日期**: 2023年4月
-- **直接链接**: 需要从SEC EDGAR搜索
+### Q2 FY2023 (As of2023years2月28日)
+- **Filing Date**: 2023years4月
+- **Direct Link**: Need to search from SEC EDGAR
 
-### Q1 FY2023 (截至2022年11月30日)
-- **文件日期**: 2023年1月
-- **直接链接**: 需要从SEC EDGAR搜索
+### Q1 FY2023 (As of2022years11月30日)
+- **Filing Date**: 2023years1月
+- **Direct Link**: Need to search from SEC EDGAR
 
-### Q3 FY2022 (截至2022年5月31日)
-- **文件日期**: 2022年7月
-- **直接链接**: 需要从SEC EDGAR搜索
+### Q3 FY2022 (As of2022years5月31日)
+- **Filing Date**: 2022years7月
+- **Direct Link**: Need to search from SEC EDGAR
 
-### Q2 FY2022 (截至2022年2月28日)
-- **文件日期**: 2022年4月
-- **直接链接**: 需要从SEC EDGAR搜索
+### Q2 FY2022 (As of2022years2月28日)
+- **Filing Date**: 2022years4月
+- **Direct Link**: Need to search from SEC EDGAR
 
-### Q1 FY2022 (截至2021年11月30日)
-- **文件日期**: 2022年1月
-- **直接链接**: 需要从SEC EDGAR搜索
+### Q1 FY2022 (As of2021years11月30日)
+- **Filing Date**: 2022years1月
+- **Direct Link**: Need to search from SEC EDGAR
 
-## 8-K 重大事件报告
+## 8-K Current Reports
 
-### 最近的8-K文件
-- **2025年12月17日**: 财报发布
-  - 链接: 需要从SEC EDGAR搜索
+### Recent 8-K Filings
+- **2025years12月17日**: 财报发布
+  - 链接: Need to search from SEC EDGAR
   - 大小: 约383 KB
 
-### 搜索8-K的关键事件
-- 财报发布公告
-- 重大合同签订
-- 并购活动
-- 高管变动
-- 工厂开业/关闭
-- 重大投资公告
+### Key Events to Search in 8-K
+- Earnings release announcement
+- Major contract signing
+- M&A activity
+- Executive changes
+- Factory opening/closing
+- Major investment announcement
 
-## 其他有用资源
+## Other Useful Resources
 
-### Jabil投资者关系页面
+### Jabil Investor Relations Pages
 - **SEC文件**: https://investors.jabil.com/financials/sec-filings/default.aspx
-- **年度报告**: https://investors.jabil.com/financials/annual-reports/default.aspx
+- **years度报告**: https://investors.jabil.com/financials/annual-reports/default.aspx
 
-### 第三方数据库
+### Third-party Databases
 - **SEC Database**: https://research.secdatabase.com/CIK/898293/Company-Name/JABIL-INC/Symbol/JBL
 - **AnnualReports.com**: https://www.annualreports.com/Company/jabil-circuit-inc
 - **StockLight**: https://stocklight.com/stocks/us/nyse-jbl/jabil-circuit/annual-reports
 
-## 下载方法
+## Download Methods
 
-### 使用Python下载
+### Download Using Python
 ```python
 from sec_edgar_downloader import Downloader
 
-# 设置下载器
+# Setup downloader
 dl = Downloader("YourName", "your.email@example.com")
 
-# 下载10-K (过去3年)
+# Download 10-K (past3years)
 dl.get("10-K", "JBL", after="2021-09-01", before="2025-12-31", 
        download_details=True)
 
-# 下载10-Q (过去12个季度)
+# Download 10-Q (past12quarters)
 dl.get("10-Q", "JBL", after="2022-01-01", before="2025-12-31",
        download_details=True)
 
-# 下载8-K (过去3年)
+# Download 8-K (past3years)
 dl.get("8-K", "JBL", after="2022-01-01", before="2025-12-31",
        download_details=True)
 ```
 
-### 手动下载
-1. 访问SEC EDGAR: https://www.sec.gov/edgar/searchedgar/companysearch.html
-2. 搜索CIK: 0000898293 或公司名: Jabil Inc
-3. 选择文件类型和日期范围
-4. 下载HTML或PDF格式
+### Manual Download
+1. Visit SEC EDGAR: https://www.sec.gov/edgar/searchedgar/companysearch.html
+2. Search CIK: 0000898293 or company name: Jabil Inc
+3. Select file type and date range
+4. 下载HTML或PDFformat
 
-## 重点提取章节
+## Key Sections to Extract
 
-### 10-K重点章节
-- **Item 1**: Business - 业务描述和战略
-- **Item 1A**: Risk Factors - 风险因素
-- **Item 7**: MD&A - 管理层讨论与分析
-- **Item 8**: Financial Statements - 财务报表(特别关注CapEx)
+### Key 10-K Sections
+- **Item 1**: Business - Business description and strategy
+- **Item 1A**: Risk Factors - Risk factors
+- **Item 7**: MD&A - Management Discussion and Analysis
+- **Item 8**: Financial Statements - Financial Statements(Pay special attention to CapEx)
 
-### 10-Q重点章节
-- **Part I, Item 2**: MD&A - 季度管理层讨论
-- **Part I, Item 1**: Financial Statements - 季度财务报表
+### Key 10-Q Sections
+- **Part I, Item 2**: MD&A - Quarterly management discussion
+- **Part I, Item 1**: Financial Statements - 季度Financial Statements
 
-## 数据收集状态
+## Data Collection Status
 - [ ] 10-K FY2025
 - [ ] 10-K FY2024
 - [ ] 10-K FY2023
@@ -168,4 +168,4 @@ dl.get("8-K", "JBL", after="2022-01-01", before="2025-12-31",
 - [ ] 10-Q Q1-Q3 FY2024
 - [ ] 10-Q Q1-Q3 FY2023
 - [ ] 10-Q Q1-Q3 FY2022
-- [ ] 相关8-K文件
+- [ ] Related 8-K filings
